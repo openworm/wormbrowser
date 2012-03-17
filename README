@@ -1,12 +1,15 @@
-This is a C. elegans WebGL body browser coded as part of the OpenWorm project [http://www.openworm.org/]. 
+This is a C. elegans WebGL body browser coded as part of the OpenWorm project 
+[http://www.openworm.org/]
 
-The C. elegans model is provided by the VirtualWorm project [http://caltech.wormbase.org/virtualworm/].
+The C. elegans model is provided by the VirtualWorm project 
+[http://caltech.wormbase.org/virtualworm/]
 
-We are using the open-3d-viewer as the WebGl engine, open sourced engine of the ex-Google Body Browser [http://code.google.com/p/open-3d-viewer/].
+We are using the open-3d-viewer as WebGl engine (ex-Google Body Browser)
+[http://code.google.com/p/open-3d-viewer/]
 
 Projects in the repo:
 
 org.openworm.wormbrowser
   google-app-engine web application project
 org.openworm.wormbrowser.utils
-  a set of python scripts for the generation of the metadata files for the open-3d-viewer
+  a set of python scripts for the generation of the open-3d-viewer metadata
