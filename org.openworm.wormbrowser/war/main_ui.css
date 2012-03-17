@@ -1,0 +1,129 @@
+/**
+ * CSS styles for main UI components of open-3d-viewer
+ */
+body {
+  margin: 0px;
+  overflow:hidden;
+}
+
+/* Tweaks to jQuery theme */
+.ui-widget {
+  font-family: arial;
+  font-size: 10pt;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: hidden;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+
+.label_select, .label_select_expandable, .label_pin, .label_pin_expandable {
+  position: absolute;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.label_select {
+  padding: 3px 37px 3px 5px;
+  background-image: url('img/label_pin_and_close.png');
+  background-position: right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  z-index: 5;
+}
+
+.label_select_expandable {
+  padding: 3px 37px 3px 21px;
+  background-image: url('img/label_expand.png'), url('img/label_pin_and_close.png');
+  background-position: left center, right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  z-index: 5;
+}
+
+.label_pin {
+  padding: 3px 21px 3px 5px;
+  font-weight: bold;
+  background-image: url('img/label_close.png');
+  background-position: right center;
+  background-color: #b6dcaa;
+  border: 1px solid #000;
+  color: #000;
+  z-index: 4;
+}
+
+.label_pin_expandable {
+  padding: 3px 21px 3px 21px;
+  font-weight: bold;
+  background-image: url('img/label_expand.png'), url('img/label_close.png');
+  background-position: left center, right center;
+  background-color: #b6dcaa;
+  border: 1px solid #000;
+  color: #000;
+  z-index: 4;
+}
+
+.help, .help-hidden {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #55CC55;
+  border-radius: 7px 7px 7px 7px;
+  font-family: arial;
+  font-size: 12px;
+  left: 100%;
+  padding: 7px;
+  position: absolute;
+  top: 100%;
+  z-index: 50;
+}
+
+.help {
+  margin-left: -395px;
+  margin-top: -430px;
+  width: 370px;
+  display:none;
+  opacity: 0.85;
+}
+
+.help-hidden {
+  display: block;
+  margin-left: -175px;
+  margin-top: -40px;
+  width: 150px;
+  opacity: 0.4;
+}
+
+.loading-feedback {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  top: 50%;
+  font-family: arial;
+  font-size: 12px;
+  border: 1px solid #55CC55;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  padding: 7px;
+  z-index: 50;
+}
+
+.indicator {
+  position:absolute;
+  width:10px;
+  height:10px;
+  background:#000;
+  z-index:1000;
+  border-radius: 5px 5px 5px 5px;
+  left: -100px;
+  top: -100px;
+}
