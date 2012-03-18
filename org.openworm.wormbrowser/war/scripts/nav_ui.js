@@ -37,7 +37,7 @@ o3v.navUI = function(reset, move, zoom) {
 
   this.navHome = $('<div>').appendTo('body').css(navBtnStyles).css({
       'left': '30px',
-      'top': '84px'
+      'top': '114px'
     }).button({
      icons: {
        primary: 'ui-icon-home'

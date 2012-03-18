@@ -43,7 +43,7 @@ o3v.MainUI = function(nextModelCallback) {
   this.modelBtn_ = $('<div>').appendTo('body').css({
       'position': 'absolute',
       'left': '17px',
-      'top': '219px',
+      'top': '230px',
       'width': '45px',
       'height': '50px',
       'border-left': '2px solid #92e497',

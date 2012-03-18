@@ -3442,108 +3442,108 @@ rih
 
 # Layers
 
-NUFsLayer
-	 id: 10
-	 type: group
-	 display_name: NUFsLayer
-	 layer: yes
-	 hidden: yes
-
-SheathLayer
-	 id: 11
-	 type: group
-	 display_name: SheathLayer
-	 layer: yes
-	 hidden: yes
-
-ExcSysLayer
-	 id: 12
-	 type: group
-	 display_name: ExcSysLayer
-	 layer: yes
-	 hidden: yes
-
-GLRLayer
-	 id: 13
-	 type: group
-	 display_name: GLRLayer
-	 layer: yes
-	 hidden: yes
-
-PolyNeurLayer
-	 id: 14
-	 type: group
-	 display_name: PolyNeurLayer
-	 layer: yes
-	 hidden: yes
-
-MotNeurLayer
-	 id: 15
-	 type: group
-	 display_name: MotNeurLayer
-	 layer: yes
-	 hidden: yes
-
-RepSysLayer
-	 id: 16
-	 type: group
-	 display_name: RepSysLayer
-	 layer: yes
-	 hidden: yes
-
-PharynxLayer
-	 id: 17
-	 type: group
-	 display_name: PharynxLayer
-	 layer: yes
-	 hidden: yes
-
-SocketLayer
-	 id: 18
-	 type: group
-	 display_name: SocketLayer
-	 layer: yes
-	 hidden: yes
-
 HypCutLayer
-	 id: 19
+	 id: 10
 	 type: group
 	 display_name: HypCutLayer
 	 layer: yes
 	 hidden: yes
 
 MuscleLayer
-	 id: 20
+	 id: 11
 	 type: group
 	 display_name: MuscleLayer
 	 layer: yes
 	 hidden: yes
 
-IntestineLayer
-	 id: 21
-	 type: group
-	 display_name: IntestineLayer
-	 layer: yes
-	 hidden: yes
-
 SensNeurLayer
-	 id: 22
+	 id: 12
 	 type: group
 	 display_name: SensNeurLayer
 	 layer: yes
 	 hidden: yes
 
+MotNeurLayer
+	 id: 13
+	 type: group
+	 display_name: MotNeurLayer
+	 layer: yes
+	 hidden: yes
+
+IntNeurLayer
+	 id: 14
+	 type: group
+	 display_name: IntNeurLayer
+	 layer: yes
+	 hidden: yes
+
+SocketLayer
+	 id: 15
+	 type: group
+	 display_name: SocketLayer
+	 layer: yes
+	 hidden: yes
+
+SheathLayer
+	 id: 16
+	 type: group
+	 display_name: SheathLayer
+	 layer: yes
+	 hidden: yes
+
+NUFsLayer
+	 id: 17
+	 type: group
+	 display_name: NUFsLayer
+	 layer: yes
+	 hidden: yes
+
+PolyNeurLayer
+	 id: 18
+	 type: group
+	 display_name: PolyNeurLayer
+	 layer: yes
+	 hidden: yes
+
+GLRLayer
+	 id: 19
+	 type: group
+	 display_name: GLRLayer
+	 layer: yes
+	 hidden: yes
+
+ExcSysLayer
+	 id: 20
+	 type: group
+	 display_name: ExcSysLayer
+	 layer: yes
+	 hidden: yes
+
 RectLayer
-	 id: 23
+	 id: 21
 	 type: group
 	 display_name: RectLayer
 	 layer: yes
 	 hidden: yes
 
-IntNeurLayer
+PharynxLayer
+	 id: 22
+	 type: group
+	 display_name: PharynxLayer
+	 layer: yes
+	 hidden: yes
+
+RepSysLayer
+	 id: 23
+	 type: group
+	 display_name: RepSysLayer
+	 layer: yes
+	 hidden: yes
+
+IntestineLayer
 	 id: 24
 	 type: group
-	 display_name: IntNeurLayer
+	 display_name: IntestineLayer
 	 layer: yes
 	 hidden: yes
 

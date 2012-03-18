@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   overflow:hidden;
+  background-color: #92be23;
 }
 
 /* Tweaks to jQuery theme */
@@ -110,7 +111,7 @@ body {
   top: 50%;
   font-family: arial;
   font-size: 12px;
-  border: 1px solid #55CC55;
+  border: 1px solid white;
   border-radius: 7px 7px 7px 7px;
   text-align: center;
   padding: 7px;
