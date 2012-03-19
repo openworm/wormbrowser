@@ -26,7 +26,7 @@ o3v.Search = function(selectCallback) {
       'width': '200px',
       'margin-left': '-227px',
       'outline-style': 'none',
-      'border': '2px solid #92e497',
+      'border': '2px solid #466a15',
       'border-radius': '12px',
       'padding': '2px 8px 2px 8px',
       'opacity': 0.8,

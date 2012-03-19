@@ -5,7 +5,11 @@ body {
   margin: 0px;
   overflow:hidden;
   background-color: #92be23;
+    font-family: Helvetica, Arial, sans-serif;
+  font-size:12px;
 }
+
+
 
 /* Tweaks to jQuery theme */
 .ui-widget {
@@ -48,7 +52,7 @@ body {
   background-position: left center, right center;
   background-color: #fff;
   border: 1px solid #333;
-  color: #333;
+  color: white;
   z-index: 5;
 }
 
@@ -57,9 +61,9 @@ body {
   font-weight: bold;
   background-image: url('img/label_close.png');
   background-position: right center;
-  background-color: #b6dcaa;
+  background-color: #466a15;
   border: 1px solid #000;
-  color: #000;
+  color: white;
   z-index: 4;
 }
 
@@ -68,7 +72,7 @@ body {
   font-weight: bold;
   background-image: url('img/label_expand.png'), url('img/label_close.png');
   background-position: left center, right center;
-  background-color: #b6dcaa;
+  background-color: #466a15;
   border: 1px solid #000;
   color: #000;
   z-index: 4;
@@ -76,14 +80,14 @@ body {
 
 .help, .help-hidden {
   background: none repeat scroll 0 0 #FFFFFF;
-  border: 1px solid #55CC55;
+  border: 1px solid #466a15;
   border-radius: 7px 7px 7px 7px;
   font-family: arial;
   font-size: 12px;
   left: 100%;
   padding: 7px;
   position: absolute;
-  top: 100%;
+  bottom: 45px;
   z-index: 50;
 }
 
@@ -129,11 +133,51 @@ body {
   top: -100px;
 }
 
+
+.attrib_zy {
+  position: absolute;
+  background-color:#466a15;
+  top: 100%;
+  z-index: 5;
+  width: 100%;
+  height: 36px;
+  margin: -36px 0 0 0;
+  font-size:11px;
+  padding-top:7px;
+ /*  color:#91ABC9; */
+  border-top: 1px solid #DFDFDF;
+}
+
+.attrib_zy  a{
+  text-decoration:none;
+  color:#92be23;
+}
+
+.attrib_zy span{
+	/* color: #666; */
+}
+
+.attrib_zy img{
+	vertical-align:middle;
+}
+
+#footer-left{ float:left; margin: 0 0 0 16px; color:white; }
+#footer-right{ float:right; margin: 3px 12px 0 0; color:white; }
+
+.pop{ display:none; }
+.validationmsg{ color:red; }
+
+#sharethis{
+	color:white;
+	font-weight:bold;
+	float:right;
+}
+
 #copyright{
 	position:absolute;
 	top:100%;
 	left:100%;
-	margin: -56px 0 0 -302px;
+	margin: -32px 0 0 -395px;
 	font-size:11px;
-	color:#999;
+	color:white;
 }
