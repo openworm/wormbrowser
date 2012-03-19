@@ -13,3 +13,8 @@ org.openworm.wormbrowser
   google-app-engine web application project
 org.openworm.wormbrowser.utils
   a set of python scripts for the generation of the open-3d-viewer metadata
+
+Acknowledgements:
+
+Jeff Bush for help with WebGL-loader and open3d-viewer
+[http://www.coderforlife.com/]
