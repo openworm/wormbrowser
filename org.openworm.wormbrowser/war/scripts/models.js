@@ -27,6 +27,6 @@ o3v.MODELS = [
     modelPath: 'models/Virtual_Worm/',
     metadataFile: 'entity_metadata.json',
     texturePath: 'models/common/',
-    numLayers: 15
+    numLayers: 2
   }
 ];

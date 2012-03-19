@@ -128,5 +128,5 @@ o3v.navUI = function(reset, move, zoom) {
         }.bind(this));
 };
 
-o3v.navUI.MOVE_FACTOR = 10;
+o3v.navUI.MOVE_FACTOR = 5;
 o3v.navUI.ZOOM_FACTOR = 50;

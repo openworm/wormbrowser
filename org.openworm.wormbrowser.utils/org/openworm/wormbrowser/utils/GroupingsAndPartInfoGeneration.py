@@ -81,7 +81,7 @@ def customizeMaterialBasedGroupings(materials,customization):
     return groupings
 
 
-def generatePartsInfo(groupings, js_filename):
+def generatePartsInfo(groupings, js_filename,order):
     parts_info = "# Parts\n"
     eid=5000
     for partlist in groupings.values():
@@ -94,7 +94,7 @@ def generatePartsInfo(groupings, js_filename):
     parts_info += "\n"
     parts_info += "# Layers\n"
     eid=10
-    for layer in groupings.keys():
+    for layer in order:
         parts_info+="\n"+layer+"\n"
         parts_info+="\t id: "+ str(eid) +"\n"
         parts_info+="\t type: group\n"
@@ -121,7 +121,7 @@ def generateGroupings(js_filename, customization,order):
 
 def generateGroupingsAndPartsInfo(js_filename, customization,order):
     groupings = generateGroupings(js_filename, customization,order)
-    generatePartsInfo(groupings,js_filename)
+    generatePartsInfo(groupings,js_filename,order)
     
     
     
@@ -135,7 +135,7 @@ CUSTOMIZATION = {'HypCutLayer':['hypodermis_layer','arcade_cells_layer','seam_ce
                  'MotNeurLayer':['motor_neuron_layer'],
                  'IntNeurLayer':['interneuron_layer','temp_drg_color_layer'],
                  'SocketLayer':['socketcell_layer'],
-                 'SheathLayer':['sheathother_layer','coelomocyte_layer',''],
+                 'SheathLayer':['sheathother_layer','coelomocyte_layer'],
                  'NUFsLayer':['neurunkfunc_layer'],
                  'PolyNeurLayer':['polymodalneuron_layer'],
                  'GLRLayer':['germline_layer','glr_cells_layer'],

@@ -112,6 +112,8 @@ def getGrouping(grouping_filename, parts_info):
 
     for line in file_sections[section]:
       node2_name = line
+      if node2_name is '':
+          continue
       node2_info = parts_info[node2_name]
       if isSublayer(node2_info):
         continue
@@ -140,6 +142,8 @@ def getSublayers(grouping_filename, parts_info):
     node1_info = parts_info[node1_name]
     for line in file_sections[section]:
       node2_name = line
+      if node2_name is '':
+          continue
       node2_info = parts_info[node2_name]
       if isLayer(node1_info) and isSublayer(node2_info):
         layer_id = int(node1_info['id'])

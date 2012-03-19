@@ -3442,109 +3442,125 @@ rih
 
 # Layers
 
-HypCutLayer
+Manna
 	 id: 10
 	 type: group
-	 display_name: HypCutLayer
+	 display_name: Manna
 	 layer: yes
+	 hidden: yes
+
+Nanna
+	 id: 11
+	 type: group
+	 display_name: Nanna
+	 layer: yes
+	 hidden: yes
+
+# Sub-Layers
+
+HypCutLayer
+	 id: 20
+	 type: sublayer
+	 display_name: HypCutLayer
+	 sublayer_index: 0
 	 hidden: yes
 
 MuscleLayer
-	 id: 11
-	 type: group
+	 id: 21
+	 type: sublayer
 	 display_name: MuscleLayer
-	 layer: yes
+	 sublayer_index: 1
 	 hidden: yes
 
 SensNeurLayer
-	 id: 12
-	 type: group
+	 id: 22
+	 type: sublayer
 	 display_name: SensNeurLayer
-	 layer: yes
+	 sublayer_index: 2
 	 hidden: yes
 
 MotNeurLayer
-	 id: 13
-	 type: group
+	 id: 23
+	 type: sublayer
 	 display_name: MotNeurLayer
-	 layer: yes
+	 sublayer_index: 3
 	 hidden: yes
 
 IntNeurLayer
-	 id: 14
-	 type: group
+	 id: 24
+	 type: sublayer
 	 display_name: IntNeurLayer
-	 layer: yes
+	 sublayer_index: 4
 	 hidden: yes
 
 SocketLayer
-	 id: 15
-	 type: group
+	 id: 25
+	 type: sublayer
 	 display_name: SocketLayer
-	 layer: yes
+	 sublayer_index: 5
 	 hidden: yes
 
 SheathLayer
-	 id: 16
-	 type: group
+	 id: 26
+	 type: sublayer
 	 display_name: SheathLayer
-	 layer: yes
+	 sublayer_index: 6
 	 hidden: yes
 
 NUFsLayer
-	 id: 17
-	 type: group
+	 id: 27
+	 type: sublayer
 	 display_name: NUFsLayer
-	 layer: yes
+	 sublayer_index: 7
 	 hidden: yes
 
 PolyNeurLayer
-	 id: 18
-	 type: group
+	 id: 28
+	 type: sublayer
 	 display_name: PolyNeurLayer
-	 layer: yes
+	 sublayer_index: 0
 	 hidden: yes
 
 GLRLayer
-	 id: 19
-	 type: group
+	 id: 29
+	 type: sublayer
 	 display_name: GLRLayer
-	 layer: yes
+	 sublayer_index: 1
 	 hidden: yes
 
 ExcSysLayer
-	 id: 20
-	 type: group
+	 id: 30
+	 type: sublayer
 	 display_name: ExcSysLayer
-	 layer: yes
+	 sublayer_index: 2
 	 hidden: yes
 
 RectLayer
-	 id: 21
-	 type: group
+	 id: 31
+	 type: sublayer
 	 display_name: RectLayer
-	 layer: yes
+	 sublayer_index: 3
 	 hidden: yes
 
 PharynxLayer
-	 id: 22
-	 type: group
+	 id: 32
+	 type: sublayer
 	 display_name: PharynxLayer
-	 layer: yes
+	 sublayer_index: 4
 	 hidden: yes
 
 RepSysLayer
-	 id: 23
-	 type: group
+	 id: 33
+	 type: sublayer
 	 display_name: RepSysLayer
-	 layer: yes
+	 sublayer_index: 5
 	 hidden: yes
 
 IntestineLayer
-	 id: 24
-	 type: group
+	 id: 34
+	 type: sublayer
 	 display_name: IntestineLayer
-	 layer: yes
+	 sublayer_index: 6
 	 hidden: yes
 
 # Group

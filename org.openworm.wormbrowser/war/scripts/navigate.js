@@ -105,7 +105,7 @@ o3v.Navigator = function(changeCallback, canvas, history) {
   this.phi = 0;
 
   // Constants for reducing the deltas for movement
-  this.rotationReduction = 0.01;
+  this.rotationReduction = 0.2;
   this.zoomReduction = 0.05;
   this.verticalReduction = 0.1;
 

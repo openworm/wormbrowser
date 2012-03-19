@@ -128,3 +128,12 @@ body {
   left: -100px;
   top: -100px;
 }
+
+#copyright{
+	position:absolute;
+	top:100%;
+	left:100%;
+	margin: -56px 0 0 -302px;
+	font-size:11px;
+	color:#999;
+}
