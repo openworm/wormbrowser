@@ -181,3 +181,14 @@ body {
 	font-size:11px;
 	color:white;
 }
+
+#wormbaselogo{
+	position:absolute;
+	cursor:pointer;
+	top:550px;
+	left:7px;
+	width:70px;
+	height:70px;
+	background-image:url("img/wormbase.png");
+	z-index: 5;
+}

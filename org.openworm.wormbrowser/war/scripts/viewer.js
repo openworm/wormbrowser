@@ -109,9 +109,9 @@ o3v.Viewer.prototype.checkWebGL = function() {
 
 o3v.Viewer.prototype.onModelInfoLoad_ = function(modelInfo) {
   // Update UI.
-  this.ui_.setModelSelectorButton(modelInfo.modelPath + '/model_icon.png');
+  this.ui_.setModelSelectorButton(modelInfo.modelPath + 'model_icon.png');
   this.layersUI_.buildAll(this.ui_.getLastButton(), modelInfo.numLayers,
-                          modelInfo.modelPath + '/layer_icons.png');
+                          modelInfo.modelPath + 'layer_icons.png');
 
   // Update slider.
   this.layerOpacityManager_.init(modelInfo.numLayers);
