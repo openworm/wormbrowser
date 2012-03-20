@@ -109,10 +109,10 @@ body {
 
 .loading-feedback {
   position: absolute;
-  left: 50%;
+  left: 47%;
   margin-left: -50px;
-  width: 100px;
-  top: 50%;
+  width: 200px;
+  top: 47%;
   font-family: arial;
   font-size: 12px;
   border: 1px solid white;
@@ -191,4 +191,11 @@ body {
 	height:70px;
 	background-image:url("img/wormbase.png");
 	z-index: 5;
+}
+
+#loader-img {
+	width:16px;
+	height:16px;
+	margin: auto;
+	background-image:url("img/ajax-loader.gif");
 }

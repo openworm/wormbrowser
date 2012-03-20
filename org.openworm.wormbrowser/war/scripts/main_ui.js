@@ -17,7 +17,8 @@
  */
 
 o3v.MainUI = function(nextModelCallback) {
-
+  var OPEN_WORM_URL = "http://openworm.org";
+	
   // Canvas.
   $('<canvas>').appendTo('body').css({
       'position': 'absolute',
@@ -30,14 +31,15 @@ o3v.MainUI = function(nextModelCallback) {
   this.canvas_.onmousedown = function() {return false;};
 
   // Logo.
-  $('<img src="img/logo.png">').appendTo('body').css({
+  $('<img id="logo-img" src="img/logo.png">').appendTo('body').css({
       'position': 'absolute',
       'left': '8px',
       'top': '10px',
+      'cursor': 'pointer',
       'z-index': o3v.uiSettings.ZINDEX_MAINUI
     }).click(function () {
-        this.navHandler(this.NAV_HOME);
-      });
+    	window.open(OPEN_WORM_URL);
+    });
 
   // Model selector.
   this.modelBtn_ = $('<div>').appendTo('body').css({
