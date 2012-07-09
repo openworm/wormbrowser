@@ -7,6 +7,9 @@ The C. elegans model is provided by the VirtualWorm project
 We are using the open-3d-viewer as WebGl engine (ex-Google Body Browser)
 [http://code.google.com/p/open-3d-viewer/]
 
+Live demo
+[http://browser.openworm.org
+
 Projects in the repo:
 
 org.openworm.wormbrowser
