@@ -199,3 +199,10 @@ body {
 	margin: auto;
 	background-image:url("img/ajax-loader.gif");
 }
+
+#appstore{
+	margin:0 auto;
+	width:116px;
+	height:40px;
+	margin-top:10px;
+}
