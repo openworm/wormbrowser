@@ -1,3 +1,6 @@
+Live demo
+[http://browser.openworm.org]
+
 This is a C. elegans WebGL body browser coded as part of the OpenWorm project 
 [http://www.openworm.org/]
 
@@ -6,9 +9,6 @@ The C. elegans model is provided by the VirtualWorm project
 
 We are using the open-3d-viewer as WebGl engine (ex-Google Body Browser)
 [http://code.google.com/p/open-3d-viewer/]
-
-Live demo
-[http://browser.openworm.org
 
 Projects in the repo:
 
