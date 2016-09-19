@@ -1,0 +1,15 @@
+repo: openworm/wormbrowser
+shortDescription: "The Worm Browser -- a 3D browser of the cellular anatomy of the c. elegans"
+coordinator: stephen@openworm.org
+gitter: "http://gitter.im/openworm/OpenWorm"
+keywords: 
+  - data
+  - anatomy
+  - cells
+languages: 
+  - html5
+members: 
+  - giovanni@openworm.org
+  - matteo@openworm.org
+parent: 
+  - openworm/OpenWorm
