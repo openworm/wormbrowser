@@ -1,0 +1,51 @@
+runtime: java17
+instance_class: F2
+
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: 1
+
+handlers:
+  # Static images with long cache
+  - url: /img/(.*)
+    static_files: img/\1
+    upload: img/.*
+    expiration: "30d"
+
+  # JavaScript files
+  - url: /scripts/(.*)
+    static_files: scripts/\1
+    upload: scripts/.*
+    expiration: "7d"
+
+  # 3D model files with long cache
+  - url: /models/(.*)
+    static_files: models/\1
+    upload: models/.*
+    expiration: "30d"
+
+  # CSS file
+  - url: /main_ui.css
+    static_files: main_ui.css
+    upload: main_ui.css
+    expiration: "7d"
+
+  # Favicon
+  - url: /favicon.ico
+    static_files: favicon.ico
+    upload: favicon.ico
+    expiration: "30d"
+
+  # No WebGL fallback page
+  - url: /no_webgl.html
+    static_files: no_webgl.html
+    upload: no_webgl.html
+
+  # Root - index.html
+  - url: /
+    static_files: index.html
+    upload: index.html
+
+  # Servlet endpoint
+  - url: /org_openworm_wormbrowser
+    script: auto
