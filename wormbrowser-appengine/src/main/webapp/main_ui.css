@@ -1,0 +1,208 @@
+/**
+ * CSS styles for main UI components of open-3d-viewer
+ */
+body {
+  margin: 0px;
+  overflow:hidden;
+  background-color: #92be23;
+    font-family: Helvetica, Arial, sans-serif;
+  font-size:12px;
+}
+
+
+
+/* Tweaks to jQuery theme */
+.ui-widget {
+  font-family: arial;
+  font-size: 10pt;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: hidden;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+
+.label_select, .label_select_expandable, .label_pin, .label_pin_expandable {
+  position: absolute;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.label_select {
+  padding: 3px 37px 3px 5px;
+  background-image: url('img/label_pin_and_close.png');
+  background-position: right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  z-index: 5;
+}
+
+.label_select_expandable {
+  padding: 3px 37px 3px 21px;
+  background-image: url('img/label_expand.png'), url('img/label_pin_and_close.png');
+  background-position: left center, right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: white;
+  z-index: 5;
+}
+
+.label_pin {
+  padding: 3px 21px 3px 5px;
+  font-weight: bold;
+  background-image: url('img/label_close.png');
+  background-position: right center;
+  background-color: #466a15;
+  border: 1px solid #000;
+  color: white;
+  z-index: 4;
+}
+
+.label_pin_expandable {
+  padding: 3px 21px 3px 21px;
+  font-weight: bold;
+  background-image: url('img/label_expand.png'), url('img/label_close.png');
+  background-position: left center, right center;
+  background-color: #466a15;
+  border: 1px solid #000;
+  color: #000;
+  z-index: 4;
+}
+
+.help, .help-hidden {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #466a15;
+  border-radius: 7px 7px 7px 7px;
+  font-family: arial;
+  font-size: 12px;
+  left: 100%;
+  padding: 7px;
+  position: absolute;
+  bottom: 45px;
+  z-index: 50;
+}
+
+.help {
+  margin-left: -395px;
+  margin-top: -430px;
+  width: 370px;
+  display:none;
+  opacity: 0.85;
+}
+
+.help-hidden {
+  display: block;
+  margin-left: -175px;
+  margin-top: -40px;
+  width: 150px;
+  opacity: 0.4;
+}
+
+.loading-feedback {
+  position: absolute;
+  left: 47%;
+  margin-left: -50px;
+  width: 200px;
+  top: 47%;
+  font-family: arial;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  padding: 7px;
+  z-index: 50;
+}
+
+.indicator {
+  position:absolute;
+  width:10px;
+  height:10px;
+  background:#000;
+  z-index:1000;
+  border-radius: 5px 5px 5px 5px;
+  left: -100px;
+  top: -100px;
+}
+
+
+.attrib_zy {
+  position: absolute;
+  background-color:#466a15;
+  top: 100%;
+  z-index: 5;
+  width: 100%;
+  height: 36px;
+  margin: -36px 0 0 0;
+  font-size:11px;
+  padding-top:7px;
+ /*  color:#91ABC9; */
+  border-top: 1px solid #DFDFDF;
+}
+
+.attrib_zy  a{
+  text-decoration:none;
+  color:#92be23;
+}
+
+.attrib_zy span{
+	/* color: #666; */
+}
+
+.attrib_zy img{
+	vertical-align:middle;
+}
+
+#footer-left{ float:left; margin: 0 0 0 16px; color:white; }
+#footer-right{ float:right; margin: 3px 12px 0 0; color:white; }
+
+.pop{ display:none; }
+.validationmsg{ color:red; }
+
+#sharethis{
+	color:white;
+	font-weight:bold;
+	float:right;
+}
+
+#copyright{
+	position:absolute;
+	top:100%;
+	left:100%;
+	margin: -32px 0 0 -395px;
+	font-size:11px;
+	color:white;
+}
+
+#wormbaselogo{
+	position:absolute;
+	cursor:pointer;
+	top:550px;
+	left:7px;
+	width:70px;
+	height:70px;
+	background-image:url("img/wormbase.png");
+	z-index: 5;
+}
+
+#loader-img {
+	width:16px;
+	height:16px;
+	margin: auto;
+	background-image:url("img/ajax-loader.gif");
+}
+
+#appstore{
+	margin:0 auto;
+	width:116px;
+	height:40px;
+	margin-top:10px;
+}

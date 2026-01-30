@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<title>OpenWorm Browser</title>
+
+<!-- jQuery -->
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" rel="Stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+<!-- o3v styles -->
+<link type="text/css" href="main_ui.css" rel="Stylesheet" />
+
+<!-- Local -->
+<script type="text/javascript">
+  var o3v = {};  // open-3d-viewer namespace
+</script>
+
+<!-- Webgl -->
+<script type="text/javascript" src="scripts/gl-matrix-min.js"></script>
+<script type="text/javascript" src="scripts/webgl.js"></script>
+<script type="text/javascript" src="scripts/loader.js"></script>
+<script type="text/javascript" src="scripts/renderer.js"></script>
+<script type="text/javascript" src="scripts/webgl_util.js"></script>
+
+<!-- o3v specific -->
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript" src="scripts/models.js"></script>
+<script type="text/javascript" src="scripts/entities.js"></script>
+<script type="text/javascript" src="scripts/content.js"></script>
+<script type="text/javascript" src="scripts/layer.js"></script>
+<script type="text/javascript" src="scripts/history.js"></script>
+<script type="text/javascript" src="scripts/layers_ui.js"></script>
+<script type="text/javascript" src="scripts/gestures.js"></script>
+<script type="text/javascript" src="scripts/select.js"></script>
+<script type="text/javascript" src="scripts/label.js"></script>
+<script type="text/javascript" src="scripts/nav_ui.js"></script>
+<script type="text/javascript" src="scripts/navigate.js"></script>
+<script type="text/javascript" src="scripts/input_handler.js"></script>
+<script type="text/javascript" src="scripts/search.js"></script>
+<script type="text/javascript" src="scripts/select.js"></script>
+<script type="text/javascript" src="scripts/interpolant.js"></script>
+<script type="text/javascript" src="scripts/opacity.js"></script>
+<script type="text/javascript" src="scripts/main_ui.js"></script>
+<script type="text/javascript" src="scripts/render_interface.js"></script>
+<script type="text/javascript" src="scripts/viewer.js"></script>
+
+<script type="text/javascript">
+  <!-- Start viewer. -->
+  $(document).ready(function() {
+    // The assignment to window.viewer_ is ONLY for debugging.
+    // This variable should NEVER be accessed from code.
+    window.viewer_ = new o3v.Viewer();
+  });
+</script>
+
+<!--- Share This --->
+<script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:'78af7988-037a-4c1b-8b09-7bc453bcd5c5'});</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30191042-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+
+<body>
+
+<!-- Canvas for verifying webgl -->
+<!-- TODO(dkogan): dynamically create this -->
+<canvas id="gltest" style="display:none"></canvas>
+
+<!-- Container for labels -->
+<!-- TODO(dkogan): dynamically create this and use css -->
+<div id="labelcontainer" style="width:0px; height:0px; left:0px; top:0px; position:absolute; z-index:1"></div>
+
+<div id="attrib_zy" class="attrib_zy">
+	<div id="footer-left">
+		<div id="sharethis">
+			<div style="float:left; margin:3px 3px 0 0; ">Share </div>
+			<div style="float:left; width:54px; height:25px; overflow:hidden; margin-top:-2px; "><span  class='st_fblike_hcount' ></span></div>
+			<div style="float:left;"><span  class='st_twitter_button' displayText='Tweet' st_title='#OpenWorm Browser: discover a full scale model of C. elegans in your browser / via @openworm'></span></div>
+			<div style="float:left; margin-top:1px;"><span  class='st_plusone_button' ></span></div></div>
+		<span style="font-weight:bold;">Follow</span>&nbsp;&nbsp;<a href="http://twitter.com/openworm" target="_blank"><img src="/img/social-twitter.png" alt="Twitter" /></a>&nbsp;<!--&nbsp;<a href="#newsletter" rel="facebox"><img src="/images/social-newsletter.png" alt="Newsletter" /></a>&nbsp;&nbsp;-->&nbsp;&nbsp;<span style="color: #999;">|</span>&nbsp;&nbsp;&nbsp;
+	</div>
+	<div id="footer-right">
+		<div id="copyright"><a href="http://openworm.org" target="_blank">OpenWorm</a> Browser. Model by Christian Grove, <a href="http://caltech.wormbase.org/virtualworm/" target="_blank">WormBase</a>, CalTech.  <a href="https://github.com/openworm/wormbrowser" target="_blank">[Source]</a></div>
+	</div>
+</div>
+
+
+
+<!-- Quick help panel -->
+<div id="help" class="help">
+<b>OpenWorm Browser Quick guide ('?' to toggle)</b>
+<br>
+<br>
+<b>Navigation</b>
+<ul>
+	<li>Click+drag with the mouse to rotate, scroll to zoom.</li>
+	<li>Or use the buttons in the upper left. The Home button resets the view.</li>
+	<li>Or use the arrow keys and Page Up / Page Down. The Home key resets the view.</li>
+</ul>
+<br>
+<br>
+<b>Slider</b>
+<ul>
+	<li>Use the opacity slider on the left to reveal layers.</li>
+	<li>Click on the toggle below the slider to control layers individually.</li>
+</ul>
+<br>
+<br>
+<b>Selection</b>
+<ul>
+	<li>Use the searchbox at the upper right to search, or click on entities to select them.</li>
+	<li>Click on the background or on a label to undo selection.</li>
+	<li>Ctrl+click on entities or labels to hide entities. (Cmd+click on mac)</li>
+	<li>Shift+click on entities or labels (or click on the 'pin' icon in a label) to pin an entity. This will keep it selected while you select more.</li>
+	<li>Some entities can be expanded by clicking on the 'plus' on a label.</li>
+</ul>
+<br>
+</div>
+<div id="help-hidden" class="help-hidden">
+<b>Quick guide ('?' to toggle)</b>
+</div>
+<div id="opac_idx" style="display:none;left:50%;top:100%;position:absolute;margin-top:-50px;color:#06F;z-index:3;margin-left:-89px"></div>
+
+<div id="r0" class="indicator"> </div>
+<div id="r1" class="indicator"> </div>
+<div id="r2" class="indicator"> </div>
+<div id="r3" class="indicator"> </div>
+<div id="r4" class="indicator"> </div>
+<div id="r5" class="indicator"> </div>
+<div id="r6" class="indicator"> </div>
+<div id="r7" class="indicator"> </div>
+
+<div id="loading-feedback" class="loading-feedback">
+	<p>OpenWorm Browser loading</p>
+	<div id="loader-img"></div>
+	<p>Loading time may vary depending on your system</p>
+</div>
+<div id="wormbaselogo" onclick="javascript:window.open('http://caltech.wormbase.org/virtualworm/')"></div>
+</body>
+</html>

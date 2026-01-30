@@ -1,0 +1,3585 @@
+# Parts
+
+alnr
+	 id: 5000
+	 type: part
+	 display_name: alnr
+
+plnr
+	 id: 5001
+	 type: part
+	 display_name: plnr
+
+canl
+	 id: 5002
+	 type: part
+	 display_name: canl
+
+uryvr
+	 id: 5003
+	 type: part
+	 display_name: uryvr
+
+auar
+	 id: 5004
+	 type: part
+	 display_name: auar
+
+plnl
+	 id: 5005
+	 type: part
+	 display_name: plnl
+
+alnl
+	 id: 5006
+	 type: part
+	 display_name: alnl
+
+canr
+	 id: 5007
+	 type: part
+	 display_name: canr
+
+urydr
+	 id: 5008
+	 type: part
+	 display_name: urydr
+
+ala
+	 id: 5009
+	 type: part
+	 display_name: ala
+
+aual
+	 id: 5010
+	 type: part
+	 display_name: aual
+
+urydl
+	 id: 5011
+	 type: part
+	 display_name: urydl
+
+uryvl
+	 id: 5012
+	 type: part
+	 display_name: uryvl
+
+ccdr
+	 id: 5013
+	 type: part
+	 display_name: ccdr
+
+ccdl
+	 id: 5014
+	 type: part
+	 display_name: ccdl
+
+ccpl
+	 id: 5015
+	 type: part
+	 display_name: ccpl
+
+ccal
+	 id: 5016
+	 type: part
+	 display_name: ccal
+
+ccar
+	 id: 5017
+	 type: part
+	 display_name: ccar
+
+ccpr
+	 id: 5018
+	 type: part
+	 display_name: ccpr
+
+olqshvr
+	 id: 5019
+	 type: part
+	 display_name: olqshvr
+
+ilshvr
+	 id: 5020
+	 type: part
+	 display_name: ilshvr
+
+ollshr
+	 id: 5021
+	 type: part
+	 display_name: ollshr
+
+ilshr
+	 id: 5022
+	 type: part
+	 display_name: ilshr
+
+amshr
+	 id: 5023
+	 type: part
+	 display_name: amshr
+
+phshr
+	 id: 5024
+	 type: part
+	 display_name: phshr
+
+phshl
+	 id: 5025
+	 type: part
+	 display_name: phshl
+
+olqshdr
+	 id: 5026
+	 type: part
+	 display_name: olqshdr
+
+cepshvr
+	 id: 5027
+	 type: part
+	 display_name: cepshvr
+
+cepshdr
+	 id: 5028
+	 type: part
+	 display_name: cepshdr
+
+ilshdr
+	 id: 5029
+	 type: part
+	 display_name: ilshdr
+
+adeshr
+	 id: 5030
+	 type: part
+	 display_name: adeshr
+
+adeshl
+	 id: 5031
+	 type: part
+	 display_name: adeshl
+
+ilshvl
+	 id: 5032
+	 type: part
+	 display_name: ilshvl
+
+ilshdl
+	 id: 5033
+	 type: part
+	 display_name: ilshdl
+
+olqshdl
+	 id: 5034
+	 type: part
+	 display_name: olqshdl
+
+ilshl
+	 id: 5035
+	 type: part
+	 display_name: ilshl
+
+olqshvl
+	 id: 5036
+	 type: part
+	 display_name: olqshvl
+
+ollshl
+	 id: 5037
+	 type: part
+	 display_name: ollshl
+
+cepshdl
+	 id: 5038
+	 type: part
+	 display_name: cepshdl
+
+cepshvl
+	 id: 5039
+	 type: part
+	 display_name: cepshvl
+
+excretory_duct_cell_excretory_duct_cell
+	 id: 5040
+	 type: part
+	 display_name: excretory_duct_cell_excretory_duct_cell
+
+excretory_gland_cell
+	 id: 5041
+	 type: part
+	 display_name: excretory_gland_cell
+
+excretory_pore_cell
+	 id: 5042
+	 type: part
+	 display_name: excretory_pore_cell
+
+rachis_p
+	 id: 5043
+	 type: part
+	 display_name: rachis_p
+
+rachis_a
+	 id: 5044
+	 type: part
+	 display_name: rachis_a
+
+oocyte_post_8
+	 id: 5045
+	 type: part
+	 display_name: oocyte_post_8
+
+oocyte_post_7
+	 id: 5046
+	 type: part
+	 display_name: oocyte_post_7
+
+oocyte_post_6
+	 id: 5047
+	 type: part
+	 display_name: oocyte_post_6
+
+oocyte_post_5
+	 id: 5048
+	 type: part
+	 display_name: oocyte_post_5
+
+oocyte_post_4
+	 id: 5049
+	 type: part
+	 display_name: oocyte_post_4
+
+oocyte_post_3
+	 id: 5050
+	 type: part
+	 display_name: oocyte_post_3
+
+oocyte_post_2
+	 id: 5051
+	 type: part
+	 display_name: oocyte_post_2
+
+oocyte_post_1
+	 id: 5052
+	 type: part
+	 display_name: oocyte_post_1
+
+oocyte_ant_10
+	 id: 5053
+	 type: part
+	 display_name: oocyte_ant_10
+
+oocyte_ant_9
+	 id: 5054
+	 type: part
+	 display_name: oocyte_ant_9
+
+oocyte_ant_8
+	 id: 5055
+	 type: part
+	 display_name: oocyte_ant_8
+
+oocyte_ant_7
+	 id: 5056
+	 type: part
+	 display_name: oocyte_ant_7
+
+oocyte_ant_6
+	 id: 5057
+	 type: part
+	 display_name: oocyte_ant_6
+
+oocyte_ant_5
+	 id: 5058
+	 type: part
+	 display_name: oocyte_ant_5
+
+oocyte_ant_4
+	 id: 5059
+	 type: part
+	 display_name: oocyte_ant_4
+
+oocyte_ant_3
+	 id: 5060
+	 type: part
+	 display_name: oocyte_ant_3
+
+oocyte_ant_2
+	 id: 5061
+	 type: part
+	 display_name: oocyte_ant_2
+
+oocyte_ant_1
+	 id: 5062
+	 type: part
+	 display_name: oocyte_ant_1
+
+olqvr
+	 id: 5063
+	 type: part
+	 display_name: olqvr
+
+il1vr
+	 id: 5064
+	 type: part
+	 display_name: il1vr
+
+il1r
+	 id: 5065
+	 type: part
+	 display_name: il1r
+
+nsmr
+	 id: 5066
+	 type: part
+	 display_name: nsmr
+
+mcr
+	 id: 5067
+	 type: part
+	 display_name: mcr
+
+mcl
+	 id: 5068
+	 type: part
+	 display_name: mcl
+
+olqdr
+	 id: 5069
+	 type: part
+	 display_name: olqdr
+
+nsml
+	 id: 5070
+	 type: part
+	 display_name: nsml
+
+il1dr
+	 id: 5071
+	 type: part
+	 display_name: il1dr
+
+avl
+	 id: 5072
+	 type: part
+	 display_name: avl
+
+il1dl
+	 id: 5073
+	 type: part
+	 display_name: il1dl
+
+il1vl
+	 id: 5074
+	 type: part
+	 display_name: il1vl
+
+il1l
+	 id: 5075
+	 type: part
+	 display_name: il1l
+
+olqdl
+	 id: 5076
+	 type: part
+	 display_name: olqdl
+
+olqvl
+	 id: 5077
+	 type: part
+	 display_name: olqvl
+
+excretory_cell_excretory_cell
+	 id: 5078
+	 type: part
+	 display_name: excretory_cell_excretory_cell
+
+va11
+	 id: 5079
+	 type: part
+	 display_name: va11
+
+hsnr
+	 id: 5080
+	 type: part
+	 display_name: hsnr
+
+dd6
+	 id: 5081
+	 type: part
+	 display_name: dd6
+
+dd4
+	 id: 5082
+	 type: part
+	 display_name: dd4
+
+dd3
+	 id: 5083
+	 type: part
+	 display_name: dd3
+
+dd5
+	 id: 5084
+	 type: part
+	 display_name: dd5
+
+dd2
+	 id: 5085
+	 type: part
+	 display_name: dd2
+
+db7
+	 id: 5086
+	 type: part
+	 display_name: db7
+
+db6
+	 id: 5087
+	 type: part
+	 display_name: db6
+
+da9
+	 id: 5088
+	 type: part
+	 display_name: da9
+
+da7
+	 id: 5089
+	 type: part
+	 display_name: da7
+
+da6
+	 id: 5090
+	 type: part
+	 display_name: da6
+
+da5
+	 id: 5091
+	 type: part
+	 display_name: da5
+
+as11
+	 id: 5092
+	 type: part
+	 display_name: as11
+
+as10
+	 id: 5093
+	 type: part
+	 display_name: as10
+
+as9
+	 id: 5094
+	 type: part
+	 display_name: as9
+
+as8
+	 id: 5095
+	 type: part
+	 display_name: as8
+
+as7
+	 id: 5096
+	 type: part
+	 display_name: as7
+
+as6
+	 id: 5097
+	 type: part
+	 display_name: as6
+
+as5
+	 id: 5098
+	 type: part
+	 display_name: as5
+
+as4
+	 id: 5099
+	 type: part
+	 display_name: as4
+
+as3
+	 id: 5100
+	 type: part
+	 display_name: as3
+
+as2
+	 id: 5101
+	 type: part
+	 display_name: as2
+
+vd13
+	 id: 5102
+	 type: part
+	 display_name: vd13
+
+vd12
+	 id: 5103
+	 type: part
+	 display_name: vd12
+
+vd11
+	 id: 5104
+	 type: part
+	 display_name: vd11
+
+vd10
+	 id: 5105
+	 type: part
+	 display_name: vd10
+
+vd9
+	 id: 5106
+	 type: part
+	 display_name: vd9
+
+vd8
+	 id: 5107
+	 type: part
+	 display_name: vd8
+
+vd7
+	 id: 5108
+	 type: part
+	 display_name: vd7
+
+vd6
+	 id: 5109
+	 type: part
+	 display_name: vd6
+
+vd5
+	 id: 5110
+	 type: part
+	 display_name: vd5
+
+vd4
+	 id: 5111
+	 type: part
+	 display_name: vd4
+
+vd3
+	 id: 5112
+	 type: part
+	 display_name: vd3
+
+db5
+	 id: 5113
+	 type: part
+	 display_name: db5
+
+db4
+	 id: 5114
+	 type: part
+	 display_name: db4
+
+da8
+	 id: 5115
+	 type: part
+	 display_name: da8
+
+da4
+	 id: 5116
+	 type: part
+	 display_name: da4
+
+da3
+	 id: 5117
+	 type: part
+	 display_name: da3
+
+da2
+	 id: 5118
+	 type: part
+	 display_name: da2
+
+vc5
+	 id: 5119
+	 type: part
+	 display_name: vc5
+
+uravr
+	 id: 5120
+	 type: part
+	 display_name: uravr
+
+m5
+	 id: 5121
+	 type: part
+	 display_name: m5
+
+m3r
+	 id: 5122
+	 type: part
+	 display_name: m3r
+
+m2r
+	 id: 5123
+	 type: part
+	 display_name: m2r
+
+m1
+	 id: 5124
+	 type: part
+	 display_name: m1
+
+dvb
+	 id: 5125
+	 type: part
+	 display_name: dvb
+
+va12
+	 id: 5126
+	 type: part
+	 display_name: va12
+
+pda
+	 id: 5127
+	 type: part
+	 display_name: pda
+
+pdb
+	 id: 5128
+	 type: part
+	 display_name: pdb
+
+vb11
+	 id: 5129
+	 type: part
+	 display_name: vb11
+
+va10
+	 id: 5130
+	 type: part
+	 display_name: va10
+
+vb10
+	 id: 5131
+	 type: part
+	 display_name: vb10
+
+va9
+	 id: 5132
+	 type: part
+	 display_name: va9
+
+vc6
+	 id: 5133
+	 type: part
+	 display_name: vc6
+
+vb9
+	 id: 5134
+	 type: part
+	 display_name: vb9
+
+va8
+	 id: 5135
+	 type: part
+	 display_name: va8
+
+vb8
+	 id: 5136
+	 type: part
+	 display_name: vb8
+
+va7
+	 id: 5137
+	 type: part
+	 display_name: va7
+
+vb7
+	 id: 5138
+	 type: part
+	 display_name: vb7
+
+va6
+	 id: 5139
+	 type: part
+	 display_name: va6
+
+vc3
+	 id: 5140
+	 type: part
+	 display_name: vc3
+
+vb6
+	 id: 5141
+	 type: part
+	 display_name: vb6
+
+va5
+	 id: 5142
+	 type: part
+	 display_name: va5
+
+vc2
+	 id: 5143
+	 type: part
+	 display_name: vc2
+
+vb5
+	 id: 5144
+	 type: part
+	 display_name: vb5
+
+va4
+	 id: 5145
+	 type: part
+	 display_name: va4
+
+vc1
+	 id: 5146
+	 type: part
+	 display_name: vc1
+
+vb4
+	 id: 5147
+	 type: part
+	 display_name: vb4
+
+va3
+	 id: 5148
+	 type: part
+	 display_name: va3
+
+db3
+	 id: 5149
+	 type: part
+	 display_name: db3
+
+vb3
+	 id: 5150
+	 type: part
+	 display_name: vb3
+
+va2
+	 id: 5151
+	 type: part
+	 display_name: va2
+
+hsnl
+	 id: 5152
+	 type: part
+	 display_name: hsnl
+
+vc4
+	 id: 5153
+	 type: part
+	 display_name: vc4
+
+m4
+	 id: 5154
+	 type: part
+	 display_name: m4
+
+m2l
+	 id: 5155
+	 type: part
+	 display_name: m2l
+
+m3l
+	 id: 5156
+	 type: part
+	 display_name: m3l
+
+smbvr
+	 id: 5157
+	 type: part
+	 display_name: smbvr
+
+rmfr
+	 id: 5158
+	 type: part
+	 display_name: rmfr
+
+rmgr
+	 id: 5159
+	 type: part
+	 display_name: rmgr
+
+uradr
+	 id: 5160
+	 type: part
+	 display_name: uradr
+
+rmer
+	 id: 5161
+	 type: part
+	 display_name: rmer
+
+rmhr
+	 id: 5162
+	 type: part
+	 display_name: rmhr
+
+smbdr
+	 id: 5163
+	 type: part
+	 display_name: smbdr
+
+smddr
+	 id: 5164
+	 type: part
+	 display_name: smddr
+
+rmddr
+	 id: 5165
+	 type: part
+	 display_name: rmddr
+
+rmdr
+	 id: 5166
+	 type: part
+	 display_name: rmdr
+
+rmdvr
+	 id: 5167
+	 type: part
+	 display_name: rmdvr
+
+smdvr
+	 id: 5168
+	 type: part
+	 display_name: smdvr
+
+rimr
+	 id: 5169
+	 type: part
+	 display_name: rimr
+
+rmed
+	 id: 5170
+	 type: part
+	 display_name: rmed
+
+rmel
+	 id: 5171
+	 type: part
+	 display_name: rmel
+
+rmev
+	 id: 5172
+	 type: part
+	 display_name: rmev
+
+smdvl
+	 id: 5173
+	 type: part
+	 display_name: smdvl
+
+rmdvl
+	 id: 5174
+	 type: part
+	 display_name: rmdvl
+
+rmdl
+	 id: 5175
+	 type: part
+	 display_name: rmdl
+
+riml
+	 id: 5176
+	 type: part
+	 display_name: riml
+
+vd2
+	 id: 5177
+	 type: part
+	 display_name: vd2
+
+da1
+	 id: 5178
+	 type: part
+	 display_name: da1
+
+vd1
+	 id: 5179
+	 type: part
+	 display_name: vd1
+
+as1
+	 id: 5180
+	 type: part
+	 display_name: as1
+
+db1
+	 id: 5181
+	 type: part
+	 display_name: db1
+
+dd1
+	 id: 5182
+	 type: part
+	 display_name: dd1
+
+va1
+	 id: 5183
+	 type: part
+	 display_name: va1
+
+db2
+	 id: 5184
+	 type: part
+	 display_name: db2
+
+vb1
+	 id: 5185
+	 type: part
+	 display_name: vb1
+
+vb2
+	 id: 5186
+	 type: part
+	 display_name: vb2
+
+rmfl
+	 id: 5187
+	 type: part
+	 display_name: rmfl
+
+smbdl
+	 id: 5188
+	 type: part
+	 display_name: smbdl
+
+smddl
+	 id: 5189
+	 type: part
+	 display_name: smddl
+
+rmhl
+	 id: 5190
+	 type: part
+	 display_name: rmhl
+
+rmddl
+	 id: 5191
+	 type: part
+	 display_name: rmddl
+
+rmgl
+	 id: 5192
+	 type: part
+	 display_name: rmgl
+
+uravl
+	 id: 5193
+	 type: part
+	 display_name: uravl
+
+uradl
+	 id: 5194
+	 type: part
+	 display_name: uradl
+
+smbvl
+	 id: 5195
+	 type: part
+	 display_name: smbvl
+
+glrvr
+	 id: 5196
+	 type: part
+	 display_name: glrvr
+
+glrdr
+	 id: 5197
+	 type: part
+	 display_name: glrdr
+
+glrr
+	 id: 5198
+	 type: part
+	 display_name: glrr
+
+glrl
+	 id: 5199
+	 type: part
+	 display_name: glrl
+
+glrdl
+	 id: 5200
+	 type: part
+	 display_name: glrdl
+
+glrvl
+	 id: 5201
+	 type: part
+	 display_name: glrvl
+
+gonadal_sheath_a4d
+	 id: 5202
+	 type: part
+	 display_name: gonadal_sheath_a4d
+
+gonadal_sheath_p5d
+	 id: 5203
+	 type: part
+	 display_name: gonadal_sheath_p5d
+
+gonadal_sheath_p4d
+	 id: 5204
+	 type: part
+	 display_name: gonadal_sheath_p4d
+
+gonadal_sheath_p3l
+	 id: 5205
+	 type: part
+	 display_name: gonadal_sheath_p3l
+
+gonadal_sheath_p2l
+	 id: 5206
+	 type: part
+	 display_name: gonadal_sheath_p2l
+
+gonadal_sheath_p1l
+	 id: 5207
+	 type: part
+	 display_name: gonadal_sheath_p1l
+
+gonadal_sheath_a3l
+	 id: 5208
+	 type: part
+	 display_name: gonadal_sheath_a3l
+
+gonadal_sheath_a2l
+	 id: 5209
+	 type: part
+	 display_name: gonadal_sheath_a2l
+
+gonadal_sheath_a1l
+	 id: 5210
+	 type: part
+	 display_name: gonadal_sheath_a1l
+
+gonadal_sheath_p4v
+	 id: 5211
+	 type: part
+	 display_name: gonadal_sheath_p4v
+
+gonadal_sheath_p3r
+	 id: 5212
+	 type: part
+	 display_name: gonadal_sheath_p3r
+
+gonadal_sheath_p2r
+	 id: 5213
+	 type: part
+	 display_name: gonadal_sheath_p2r
+
+gonadal_sheath_p1r
+	 id: 5214
+	 type: part
+	 display_name: gonadal_sheath_p1r
+
+distal_tip_cell_p
+	 id: 5215
+	 type: part
+	 display_name: distal_tip_cell_p
+
+gonadal_sheath_a4v
+	 id: 5216
+	 type: part
+	 display_name: gonadal_sheath_a4v
+
+gonadal_sheath_a3r
+	 id: 5217
+	 type: part
+	 display_name: gonadal_sheath_a3r
+
+gonadal_sheath_a2r
+	 id: 5218
+	 type: part
+	 display_name: gonadal_sheath_a2r
+
+gonadal_sheath_a1r
+	 id: 5219
+	 type: part
+	 display_name: gonadal_sheath_a1r
+
+distal_tip_cell_a
+	 id: 5220
+	 type: part
+	 display_name: distal_tip_cell_a
+
+gonadal_sheath_p5v
+	 id: 5221
+	 type: part
+	 display_name: gonadal_sheath_p5v
+
+gonadal_sheath_a5v
+	 id: 5222
+	 type: part
+	 display_name: gonadal_sheath_a5v
+
+sp_ut_valve_post
+	 id: 5223
+	 type: part
+	 display_name: sp_ut_valve_post
+
+sp_ut_valve_ant
+	 id: 5224
+	 type: part
+	 display_name: sp_ut_valve_ant
+
+ut2_ant
+	 id: 5225
+	 type: part
+	 display_name: ut2_ant
+
+uv2_post
+	 id: 5226
+	 type: part
+	 display_name: uv2_post
+
+uv1_post
+	 id: 5227
+	 type: part
+	 display_name: uv1_post
+
+uv3_post
+	 id: 5228
+	 type: part
+	 display_name: uv3_post
+
+uv3_ant
+	 id: 5229
+	 type: part
+	 display_name: uv3_ant
+
+uv2_ant
+	 id: 5230
+	 type: part
+	 display_name: uv2_ant
+
+uv1_ant
+	 id: 5231
+	 type: part
+	 display_name: uv1_ant
+
+du
+	 id: 5232
+	 type: part
+	 display_name: du
+
+ut3_post
+	 id: 5233
+	 type: part
+	 display_name: ut3_post
+
+ut2_post
+	 id: 5234
+	 type: part
+	 display_name: ut2_post
+
+ut1_post
+	 id: 5235
+	 type: part
+	 display_name: ut1_post
+
+ut1_ant
+	 id: 5236
+	 type: part
+	 display_name: ut1_ant
+
+ut3_ant
+	 id: 5237
+	 type: part
+	 display_name: ut3_ant
+
+utse
+	 id: 5238
+	 type: part
+	 display_name: utse
+
+ut4_post
+	 id: 5239
+	 type: part
+	 display_name: ut4_post
+
+ut4_ant
+	 id: 5240
+	 type: part
+	 display_name: ut4_ant
+
+sp_bag_p_4r
+	 id: 5241
+	 type: part
+	 display_name: sp_bag_p_4r
+
+sp_neck_p_1l
+	 id: 5242
+	 type: part
+	 display_name: sp_neck_p_1l
+
+sp_neck_p_1r
+	 id: 5243
+	 type: part
+	 display_name: sp_neck_p_1r
+
+sp_neck_p_2l
+	 id: 5244
+	 type: part
+	 display_name: sp_neck_p_2l
+
+sp_neck_p_3r
+	 id: 5245
+	 type: part
+	 display_name: sp_neck_p_3r
+
+sp_neck_p_4l
+	 id: 5246
+	 type: part
+	 display_name: sp_neck_p_4l
+
+sp_neck_p_3l
+	 id: 5247
+	 type: part
+	 display_name: sp_neck_p_3l
+
+sp_neck_p_2r
+	 id: 5248
+	 type: part
+	 display_name: sp_neck_p_2r
+
+sp_neck_p_4r
+	 id: 5249
+	 type: part
+	 display_name: sp_neck_p_4r
+
+sp_bag_p_1v
+	 id: 5250
+	 type: part
+	 display_name: sp_bag_p_1v
+
+sp_bag_p_2r
+	 id: 5251
+	 type: part
+	 display_name: sp_bag_p_2r
+
+sp_bag_p_3v
+	 id: 5252
+	 type: part
+	 display_name: sp_bag_p_3v
+
+sp_bag_p_1d
+	 id: 5253
+	 type: part
+	 display_name: sp_bag_p_1d
+
+sp_bag_p_1r
+	 id: 5254
+	 type: part
+	 display_name: sp_bag_p_1r
+
+sp_bag_p_1l
+	 id: 5255
+	 type: part
+	 display_name: sp_bag_p_1l
+
+sp_bag_p_2d
+	 id: 5256
+	 type: part
+	 display_name: sp_bag_p_2d
+
+sp_bag_p_2l
+	 id: 5257
+	 type: part
+	 display_name: sp_bag_p_2l
+
+sp_bag_p_2v
+	 id: 5258
+	 type: part
+	 display_name: sp_bag_p_2v
+
+sp_bag_p_3d
+	 id: 5259
+	 type: part
+	 display_name: sp_bag_p_3d
+
+sp_bag_p_3l
+	 id: 5260
+	 type: part
+	 display_name: sp_bag_p_3l
+
+sp_bag_p_3r
+	 id: 5261
+	 type: part
+	 display_name: sp_bag_p_3r
+
+sp_bag_p_4d
+	 id: 5262
+	 type: part
+	 display_name: sp_bag_p_4d
+
+sp_bag_p_4l
+	 id: 5263
+	 type: part
+	 display_name: sp_bag_p_4l
+
+sp_bag_p_4v
+	 id: 5264
+	 type: part
+	 display_name: sp_bag_p_4v
+
+sp_bag_a_4v
+	 id: 5265
+	 type: part
+	 display_name: sp_bag_a_4v
+
+sp_bag_a_4r
+	 id: 5266
+	 type: part
+	 display_name: sp_bag_a_4r
+
+sp_bag_a_4d
+	 id: 5267
+	 type: part
+	 display_name: sp_bag_a_4d
+
+sp_bag_a_3l
+	 id: 5268
+	 type: part
+	 display_name: sp_bag_a_3l
+
+sp_bag_a_3r
+	 id: 5269
+	 type: part
+	 display_name: sp_bag_a_3r
+
+sp_bag_a_3d
+	 id: 5270
+	 type: part
+	 display_name: sp_bag_a_3d
+
+sp_bag_a_2v
+	 id: 5271
+	 type: part
+	 display_name: sp_bag_a_2v
+
+sp_bag_a_2r
+	 id: 5272
+	 type: part
+	 display_name: sp_bag_a_2r
+
+sp_bag_a_2d
+	 id: 5273
+	 type: part
+	 display_name: sp_bag_a_2d
+
+sp_bag_a_1r
+	 id: 5274
+	 type: part
+	 display_name: sp_bag_a_1r
+
+sp_bag_a_1l
+	 id: 5275
+	 type: part
+	 display_name: sp_bag_a_1l
+
+sp_bag_a_1d
+	 id: 5276
+	 type: part
+	 display_name: sp_bag_a_1d
+
+sp_bag_a_3v
+	 id: 5277
+	 type: part
+	 display_name: sp_bag_a_3v
+
+sp_bag_a_2l
+	 id: 5278
+	 type: part
+	 display_name: sp_bag_a_2l
+
+sp_bag_a_1v
+	 id: 5279
+	 type: part
+	 display_name: sp_bag_a_1v
+
+sp_neck_a_4l
+	 id: 5280
+	 type: part
+	 display_name: sp_neck_a_4l
+
+sp_neck_a_2l
+	 id: 5281
+	 type: part
+	 display_name: sp_neck_a_2l
+
+sp_neck_a_3r
+	 id: 5282
+	 type: part
+	 display_name: sp_neck_a_3r
+
+sp_neck_a_4r
+	 id: 5283
+	 type: part
+	 display_name: sp_neck_a_4r
+
+sp_neck_a_3l
+	 id: 5284
+	 type: part
+	 display_name: sp_neck_a_3l
+
+sp_neck_a_2r
+	 id: 5285
+	 type: part
+	 display_name: sp_neck_a_2r
+
+sp_neck_a_1l
+	 id: 5286
+	 type: part
+	 display_name: sp_neck_a_1l
+
+sp_neck_a_1r
+	 id: 5287
+	 type: part
+	 display_name: sp_neck_a_1r
+
+sp_bag_a_4l
+	 id: 5288
+	 type: part
+	 display_name: sp_bag_a_4l
+
+vula
+	 id: 5289
+	 type: part
+	 display_name: vula
+
+vulb1
+	 id: 5290
+	 type: part
+	 display_name: vulb1
+
+vulb2
+	 id: 5291
+	 type: part
+	 display_name: vulb2
+
+vulc
+	 id: 5292
+	 type: part
+	 display_name: vulc
+
+vuld
+	 id: 5293
+	 type: part
+	 display_name: vuld
+
+vule
+	 id: 5294
+	 type: part
+	 display_name: vule
+
+vulf
+	 id: 5295
+	 type: part
+	 display_name: vulf
+
+rect_vr
+	 id: 5296
+	 type: part
+	 display_name: rect_vr
+
+rect_d
+	 id: 5297
+	 type: part
+	 display_name: rect_d
+
+rect_vl
+	 id: 5298
+	 type: part
+	 display_name: rect_vl
+
+phar_gland_g2_vr_phar_gland_vg2r
+	 id: 5299
+	 type: part
+	 display_name: phar_gland_g2_vr_phar_gland_vg2r
+
+phar_gland_dorsal_g2_phar_gland_vd
+	 id: 5300
+	 type: part
+	 display_name: phar_gland_dorsal_g2_phar_gland_vd
+
+phar_gland_g1_l_phar_gland_vg1l
+	 id: 5301
+	 type: part
+	 display_name: phar_gland_g1_l_phar_gland_vg1l
+
+phar_gland_g2_vl_phar_gland_vg2l
+	 id: 5302
+	 type: part
+	 display_name: phar_gland_g2_vl_phar_gland_vg2l
+
+pm2vr
+	 id: 5303
+	 type: part
+	 display_name: pm2vr
+
+pm2vl
+	 id: 5304
+	 type: part
+	 display_name: pm2vl
+
+pm2d
+	 id: 5305
+	 type: part
+	 display_name: pm2d
+
+pm8
+	 id: 5306
+	 type: part
+	 display_name: pm8
+
+pm6vl
+	 id: 5307
+	 type: part
+	 display_name: pm6vl
+
+pm6d
+	 id: 5308
+	 type: part
+	 display_name: pm6d
+
+pm6vr
+	 id: 5309
+	 type: part
+	 display_name: pm6vr
+
+pm4vl
+	 id: 5310
+	 type: part
+	 display_name: pm4vl
+
+pm4d
+	 id: 5311
+	 type: part
+	 display_name: pm4d
+
+pm4vr
+	 id: 5312
+	 type: part
+	 display_name: pm4vr
+
+mc3dr
+	 id: 5313
+	 type: part
+	 display_name: mc3dr
+
+mc2v
+	 id: 5314
+	 type: part
+	 display_name: mc2v
+
+mc2dr
+	 id: 5315
+	 type: part
+	 display_name: mc2dr
+
+mc1v
+	 id: 5316
+	 type: part
+	 display_name: mc1v
+
+mc1dr
+	 id: 5317
+	 type: part
+	 display_name: mc1dr
+
+mc3v
+	 id: 5318
+	 type: part
+	 display_name: mc3v
+
+mc3dl
+	 id: 5319
+	 type: part
+	 display_name: mc3dl
+
+mc2dl
+	 id: 5320
+	 type: part
+	 display_name: mc2dl
+
+mc1dl
+	 id: 5321
+	 type: part
+	 display_name: mc1dl
+
+pm1
+	 id: 5322
+	 type: part
+	 display_name: pm1
+
+pm7vl
+	 id: 5323
+	 type: part
+	 display_name: pm7vl
+
+pm7d
+	 id: 5324
+	 type: part
+	 display_name: pm7d
+
+pm5vl
+	 id: 5325
+	 type: part
+	 display_name: pm5vl
+
+pm5d
+	 id: 5326
+	 type: part
+	 display_name: pm5d
+
+pm5vr
+	 id: 5327
+	 type: part
+	 display_name: pm5vr
+
+pm3vl
+	 id: 5328
+	 type: part
+	 display_name: pm3vl
+
+pm3d
+	 id: 5329
+	 type: part
+	 display_name: pm3d
+
+pm3vr
+	 id: 5330
+	 type: part
+	 display_name: pm3vr
+
+pm7vr
+	 id: 5331
+	 type: part
+	 display_name: pm7vr
+
+anus
+	 id: 5332
+	 type: part
+	 display_name: anus
+
+e1vr
+	 id: 5333
+	 type: part
+	 display_name: e1vr
+
+e3vr
+	 id: 5334
+	 type: part
+	 display_name: e3vr
+
+e2dr
+	 id: 5335
+	 type: part
+	 display_name: e2dr
+
+e2dl
+	 id: 5336
+	 type: part
+	 display_name: e2dl
+
+e3d
+	 id: 5337
+	 type: part
+	 display_name: e3d
+
+e1d
+	 id: 5338
+	 type: part
+	 display_name: e1d
+
+e2v
+	 id: 5339
+	 type: part
+	 display_name: e2v
+
+e3vl
+	 id: 5340
+	 type: part
+	 display_name: e3vl
+
+e1vl
+	 id: 5341
+	 type: part
+	 display_name: e1vl
+
+olqsovr
+	 id: 5342
+	 type: part
+	 display_name: olqsovr
+
+ilsovr
+	 id: 5343
+	 type: part
+	 display_name: ilsovr
+
+xxxr
+	 id: 5344
+	 type: part
+	 display_name: xxxr
+
+ollsor
+	 id: 5345
+	 type: part
+	 display_name: ollsor
+
+ilsor
+	 id: 5346
+	 type: part
+	 display_name: ilsor
+
+amsor
+	 id: 5347
+	 type: part
+	 display_name: amsor
+
+phso1r
+	 id: 5348
+	 type: part
+	 display_name: phso1r
+
+phso2r
+	 id: 5349
+	 type: part
+	 display_name: phso2r
+
+phso2l
+	 id: 5350
+	 type: part
+	 display_name: phso2l
+
+phso1l
+	 id: 5351
+	 type: part
+	 display_name: phso1l
+
+adesol
+	 id: 5352
+	 type: part
+	 display_name: adesol
+
+amsol
+	 id: 5353
+	 type: part
+	 display_name: amsol
+
+ilsodr
+	 id: 5354
+	 type: part
+	 display_name: ilsodr
+
+adesor
+	 id: 5355
+	 type: part
+	 display_name: adesor
+
+cepsovr
+	 id: 5356
+	 type: part
+	 display_name: cepsovr
+
+cepsodr
+	 id: 5357
+	 type: part
+	 display_name: cepsodr
+
+olqsodr
+	 id: 5358
+	 type: part
+	 display_name: olqsodr
+
+ilsovl
+	 id: 5359
+	 type: part
+	 display_name: ilsovl
+
+olqsovl
+	 id: 5360
+	 type: part
+	 display_name: olqsovl
+
+ilsol
+	 id: 5361
+	 type: part
+	 display_name: ilsol
+
+ilsodl
+	 id: 5362
+	 type: part
+	 display_name: ilsodl
+
+olqsodl
+	 id: 5363
+	 type: part
+	 display_name: olqsodl
+
+xxxl
+	 id: 5364
+	 type: part
+	 display_name: xxxl
+
+ollsol
+	 id: 5365
+	 type: part
+	 display_name: ollsol
+
+cepsodl
+	 id: 5366
+	 type: part
+	 display_name: cepsodl
+
+cepsovl
+	 id: 5367
+	 type: part
+	 display_name: cepsovl
+
+seam_cells_left
+	 id: 5368
+	 type: part
+	 display_name: seam_cells_left
+
+seam_cells_right
+	 id: 5369
+	 type: part
+	 display_name: seam_cells_right
+
+arcade_cell_ant
+	 id: 5370
+	 type: part
+	 display_name: arcade_cell_ant
+
+arcade_cell_post
+	 id: 5371
+	 type: part
+	 display_name: arcade_cell_post
+
+hyp10
+	 id: 5372
+	 type: part
+	 display_name: hyp10
+
+hyp9
+	 id: 5373
+	 type: part
+	 display_name: hyp9
+
+hyp8
+	 id: 5374
+	 type: part
+	 display_name: hyp8
+
+hyp11
+	 id: 5375
+	 type: part
+	 display_name: hyp11
+
+hyp7
+	 id: 5376
+	 type: part
+	 display_name: hyp7
+
+hyp5
+	 id: 5377
+	 type: part
+	 display_name: hyp5
+
+hyp4
+	 id: 5378
+	 type: part
+	 display_name: hyp4
+
+hyp2
+	 id: 5379
+	 type: part
+	 display_name: hyp2
+
+hyp1
+	 id: 5380
+	 type: part
+	 display_name: hyp1
+
+hyp3
+	 id: 5381
+	 type: part
+	 display_name: hyp3
+
+cuticle
+	 id: 5382
+	 type: part
+	 display_name: cuticle
+
+um1l_post
+	 id: 5383
+	 type: part
+	 display_name: um1l_post
+
+um1l_ant
+	 id: 5384
+	 type: part
+	 display_name: um1l_ant
+
+um1r_post
+	 id: 5385
+	 type: part
+	 display_name: um1r_post
+
+um2l_post
+	 id: 5386
+	 type: part
+	 display_name: um2l_post
+
+um2l_ant
+	 id: 5387
+	 type: part
+	 display_name: um2l_ant
+
+um2r_ant
+	 id: 5388
+	 type: part
+	 display_name: um2r_ant
+
+um1r_ant
+	 id: 5389
+	 type: part
+	 display_name: um1r_ant
+
+um2r_post
+	 id: 5390
+	 type: part
+	 display_name: um2r_post
+
+vm1l_ant
+	 id: 5391
+	 type: part
+	 display_name: vm1l_ant
+
+vm2r_ant
+	 id: 5392
+	 type: part
+	 display_name: vm2r_ant
+
+vm2l_post
+	 id: 5393
+	 type: part
+	 display_name: vm2l_post
+
+vm1r_ant
+	 id: 5394
+	 type: part
+	 display_name: vm1r_ant
+
+vm1r_post
+	 id: 5395
+	 type: part
+	 display_name: vm1r_post
+
+vm1l_post
+	 id: 5396
+	 type: part
+	 display_name: vm1l_post
+
+vm2r_post
+	 id: 5397
+	 type: part
+	 display_name: vm2r_post
+
+vm2l_ant
+	 id: 5398
+	 type: part
+	 display_name: vm2l_ant
+
+mu_int_r
+	 id: 5399
+	 type: part
+	 display_name: mu_int_r
+
+mu_int_l
+	 id: 5400
+	 type: part
+	 display_name: mu_int_l
+
+mu_bod_vl22
+	 id: 5401
+	 type: part
+	 display_name: mu_bod_vl22
+
+mu_bod_vl20
+	 id: 5402
+	 type: part
+	 display_name: mu_bod_vl20
+
+mu_bod_vl18
+	 id: 5403
+	 type: part
+	 display_name: mu_bod_vl18
+
+mu_bod_vl16
+	 id: 5404
+	 type: part
+	 display_name: mu_bod_vl16
+
+mu_bod_vl14
+	 id: 5405
+	 type: part
+	 display_name: mu_bod_vl14
+
+mu_bod_vl12
+	 id: 5406
+	 type: part
+	 display_name: mu_bod_vl12
+
+mu_bod_vl10
+	 id: 5407
+	 type: part
+	 display_name: mu_bod_vl10
+
+mu_bod_vl8
+	 id: 5408
+	 type: part
+	 display_name: mu_bod_vl8
+
+mu_bod_vl6
+	 id: 5409
+	 type: part
+	 display_name: mu_bod_vl6
+
+mu_bod_vl4
+	 id: 5410
+	 type: part
+	 display_name: mu_bod_vl4
+
+mu_bod_vl2
+	 id: 5411
+	 type: part
+	 display_name: mu_bod_vl2
+
+mu_bod_vl21
+	 id: 5412
+	 type: part
+	 display_name: mu_bod_vl21
+
+mu_bod_vl19
+	 id: 5413
+	 type: part
+	 display_name: mu_bod_vl19
+
+mu_bod_vl17
+	 id: 5414
+	 type: part
+	 display_name: mu_bod_vl17
+
+mu_bod_vl15
+	 id: 5415
+	 type: part
+	 display_name: mu_bod_vl15
+
+mu_bod_vl13
+	 id: 5416
+	 type: part
+	 display_name: mu_bod_vl13
+
+mu_bod_vl11
+	 id: 5417
+	 type: part
+	 display_name: mu_bod_vl11
+
+mu_bod_vl9
+	 id: 5418
+	 type: part
+	 display_name: mu_bod_vl9
+
+mu_bod_vl7
+	 id: 5419
+	 type: part
+	 display_name: mu_bod_vl7
+
+mu_bod_vl5
+	 id: 5420
+	 type: part
+	 display_name: mu_bod_vl5
+
+mu_bod_vl3
+	 id: 5421
+	 type: part
+	 display_name: mu_bod_vl3
+
+mu_bod_vl1
+	 id: 5422
+	 type: part
+	 display_name: mu_bod_vl1
+
+mu_bod_vr22
+	 id: 5423
+	 type: part
+	 display_name: mu_bod_vr22
+
+mu_bod_vr20
+	 id: 5424
+	 type: part
+	 display_name: mu_bod_vr20
+
+mu_bod_vr18
+	 id: 5425
+	 type: part
+	 display_name: mu_bod_vr18
+
+mu_bod_vr16
+	 id: 5426
+	 type: part
+	 display_name: mu_bod_vr16
+
+mu_bod_vr14
+	 id: 5427
+	 type: part
+	 display_name: mu_bod_vr14
+
+mu_bod_vr12
+	 id: 5428
+	 type: part
+	 display_name: mu_bod_vr12
+
+mu_bod_vr10
+	 id: 5429
+	 type: part
+	 display_name: mu_bod_vr10
+
+mu_bod_vr8
+	 id: 5430
+	 type: part
+	 display_name: mu_bod_vr8
+
+mu_bod_vr6
+	 id: 5431
+	 type: part
+	 display_name: mu_bod_vr6
+
+mu_bod_vr4
+	 id: 5432
+	 type: part
+	 display_name: mu_bod_vr4
+
+mu_bod_vr2
+	 id: 5433
+	 type: part
+	 display_name: mu_bod_vr2
+
+mu_bod_vr21
+	 id: 5434
+	 type: part
+	 display_name: mu_bod_vr21
+
+mu_bod_vr19
+	 id: 5435
+	 type: part
+	 display_name: mu_bod_vr19
+
+mu_bod_vr17
+	 id: 5436
+	 type: part
+	 display_name: mu_bod_vr17
+
+mu_bod_vr15
+	 id: 5437
+	 type: part
+	 display_name: mu_bod_vr15
+
+mu_bod_vr13
+	 id: 5438
+	 type: part
+	 display_name: mu_bod_vr13
+
+mu_bod_vr11
+	 id: 5439
+	 type: part
+	 display_name: mu_bod_vr11
+
+mu_bod_vr9
+	 id: 5440
+	 type: part
+	 display_name: mu_bod_vr9
+
+mu_bod_vr7
+	 id: 5441
+	 type: part
+	 display_name: mu_bod_vr7
+
+mu_bod_vr5
+	 id: 5442
+	 type: part
+	 display_name: mu_bod_vr5
+
+mu_bod_vr3
+	 id: 5443
+	 type: part
+	 display_name: mu_bod_vr3
+
+mu_bod_vr1
+	 id: 5444
+	 type: part
+	 display_name: mu_bod_vr1
+
+mu_bod_dr23
+	 id: 5445
+	 type: part
+	 display_name: mu_bod_dr23
+
+mu_bod_dr22
+	 id: 5446
+	 type: part
+	 display_name: mu_bod_dr22
+
+mu_bod_dr20
+	 id: 5447
+	 type: part
+	 display_name: mu_bod_dr20
+
+mu_bod_dr18
+	 id: 5448
+	 type: part
+	 display_name: mu_bod_dr18
+
+mu_bod_dr16
+	 id: 5449
+	 type: part
+	 display_name: mu_bod_dr16
+
+mu_bod_dr14
+	 id: 5450
+	 type: part
+	 display_name: mu_bod_dr14
+
+mu_bod_dr12
+	 id: 5451
+	 type: part
+	 display_name: mu_bod_dr12
+
+mu_bod_dr10
+	 id: 5452
+	 type: part
+	 display_name: mu_bod_dr10
+
+mu_bod_dr8
+	 id: 5453
+	 type: part
+	 display_name: mu_bod_dr8
+
+mu_bod_dr6
+	 id: 5454
+	 type: part
+	 display_name: mu_bod_dr6
+
+mu_bod_dr4
+	 id: 5455
+	 type: part
+	 display_name: mu_bod_dr4
+
+mu_bod_dr2
+	 id: 5456
+	 type: part
+	 display_name: mu_bod_dr2
+
+mu_bod_dr3
+	 id: 5457
+	 type: part
+	 display_name: mu_bod_dr3
+
+mu_bod_dr5
+	 id: 5458
+	 type: part
+	 display_name: mu_bod_dr5
+
+mu_bod_dr7
+	 id: 5459
+	 type: part
+	 display_name: mu_bod_dr7
+
+mu_bod_dr9
+	 id: 5460
+	 type: part
+	 display_name: mu_bod_dr9
+
+mu_bod_dr11
+	 id: 5461
+	 type: part
+	 display_name: mu_bod_dr11
+
+mu_bod_dr21
+	 id: 5462
+	 type: part
+	 display_name: mu_bod_dr21
+
+mu_bod_dr19
+	 id: 5463
+	 type: part
+	 display_name: mu_bod_dr19
+
+mu_bod_dr17
+	 id: 5464
+	 type: part
+	 display_name: mu_bod_dr17
+
+mu_bod_dr15
+	 id: 5465
+	 type: part
+	 display_name: mu_bod_dr15
+
+mu_bod_dr13
+	 id: 5466
+	 type: part
+	 display_name: mu_bod_dr13
+
+mu_bod_dl22
+	 id: 5467
+	 type: part
+	 display_name: mu_bod_dl22
+
+mu_bod_dl20
+	 id: 5468
+	 type: part
+	 display_name: mu_bod_dl20
+
+mu_bod_dl18
+	 id: 5469
+	 type: part
+	 display_name: mu_bod_dl18
+
+mu_bod_dl16
+	 id: 5470
+	 type: part
+	 display_name: mu_bod_dl16
+
+mu_bod_dl14
+	 id: 5471
+	 type: part
+	 display_name: mu_bod_dl14
+
+mu_bod_dl12
+	 id: 5472
+	 type: part
+	 display_name: mu_bod_dl12
+
+mu_bod_dl10
+	 id: 5473
+	 type: part
+	 display_name: mu_bod_dl10
+
+mu_bod_dl8
+	 id: 5474
+	 type: part
+	 display_name: mu_bod_dl8
+
+mu_bod_dl6
+	 id: 5475
+	 type: part
+	 display_name: mu_bod_dl6
+
+mu_bod_dl4
+	 id: 5476
+	 type: part
+	 display_name: mu_bod_dl4
+
+mu_bod_dl2
+	 id: 5477
+	 type: part
+	 display_name: mu_bod_dl2
+
+mu_bod_dl23
+	 id: 5478
+	 type: part
+	 display_name: mu_bod_dl23
+
+mu_bod_dl21
+	 id: 5479
+	 type: part
+	 display_name: mu_bod_dl21
+
+mu_bod_dl19
+	 id: 5480
+	 type: part
+	 display_name: mu_bod_dl19
+
+mu_bod_dl17
+	 id: 5481
+	 type: part
+	 display_name: mu_bod_dl17
+
+mu_bod_dl15
+	 id: 5482
+	 type: part
+	 display_name: mu_bod_dl15
+
+mu_bod_dl3
+	 id: 5483
+	 type: part
+	 display_name: mu_bod_dl3
+
+mu_bod_dl5
+	 id: 5484
+	 type: part
+	 display_name: mu_bod_dl5
+
+mu_bod_dl7
+	 id: 5485
+	 type: part
+	 display_name: mu_bod_dl7
+
+mu_bod_dl9
+	 id: 5486
+	 type: part
+	 display_name: mu_bod_dl9
+
+mu_bod_dl11
+	 id: 5487
+	 type: part
+	 display_name: mu_bod_dl11
+
+mu_bod_dl13
+	 id: 5488
+	 type: part
+	 display_name: mu_bod_dl13
+
+mu_bod_vr23
+	 id: 5489
+	 type: part
+	 display_name: mu_bod_vr23
+
+mu_bod_vl23
+	 id: 5490
+	 type: part
+	 display_name: mu_bod_vl23
+
+mu_bod_dr1
+	 id: 5491
+	 type: part
+	 display_name: mu_bod_dr1
+
+mu_bod_dr24
+	 id: 5492
+	 type: part
+	 display_name: mu_bod_dr24
+
+mu_bod_dl1
+	 id: 5493
+	 type: part
+	 display_name: mu_bod_dl1
+
+mu_bod_dl24
+	 id: 5494
+	 type: part
+	 display_name: mu_bod_dl24
+
+mu_bod_vr24
+	 id: 5495
+	 type: part
+	 display_name: mu_bod_vr24
+
+int1dl
+	 id: 5496
+	 type: part
+	 display_name: int1dl
+
+int9l
+	 id: 5497
+	 type: part
+	 display_name: int9l
+
+int8l
+	 id: 5498
+	 type: part
+	 display_name: int8l
+
+int7l
+	 id: 5499
+	 type: part
+	 display_name: int7l
+
+int6l
+	 id: 5500
+	 type: part
+	 display_name: int6l
+
+int5l
+	 id: 5501
+	 type: part
+	 display_name: int5l
+
+int4v
+	 id: 5502
+	 type: part
+	 display_name: int4v
+
+int3v
+	 id: 5503
+	 type: part
+	 display_name: int3v
+
+int2d
+	 id: 5504
+	 type: part
+	 display_name: int2d
+
+int1vr
+	 id: 5505
+	 type: part
+	 display_name: int1vr
+
+int1vl
+	 id: 5506
+	 type: part
+	 display_name: int1vl
+
+int4d
+	 id: 5507
+	 type: part
+	 display_name: int4d
+
+int6r
+	 id: 5508
+	 type: part
+	 display_name: int6r
+
+int5r
+	 id: 5509
+	 type: part
+	 display_name: int5r
+
+int9r
+	 id: 5510
+	 type: part
+	 display_name: int9r
+
+int8r
+	 id: 5511
+	 type: part
+	 display_name: int8r
+
+int2v
+	 id: 5512
+	 type: part
+	 display_name: int2v
+
+int1dr
+	 id: 5513
+	 type: part
+	 display_name: int1dr
+
+int7r
+	 id: 5514
+	 type: part
+	 display_name: int7r
+
+int3d
+	 id: 5515
+	 type: part
+	 display_name: int3d
+
+head_mesodermal_cell
+	 id: 5516
+	 type: part
+	 display_name: head_mesodermal_cell
+
+pvm
+	 id: 5517
+	 type: part
+	 display_name: pvm
+
+pvdr
+	 id: 5518
+	 type: part
+	 display_name: pvdr
+
+pder
+	 id: 5519
+	 type: part
+	 display_name: pder
+
+avm
+	 id: 5520
+	 type: part
+	 display_name: avm
+
+almr
+	 id: 5521
+	 type: part
+	 display_name: almr
+
+pvr
+	 id: 5522
+	 type: part
+	 display_name: pvr
+
+plmr
+	 id: 5523
+	 type: part
+	 display_name: plmr
+
+phcr
+	 id: 5524
+	 type: part
+	 display_name: phcr
+
+phbr
+	 id: 5525
+	 type: part
+	 display_name: phbr
+
+phar
+	 id: 5526
+	 type: part
+	 display_name: phar
+
+pvdl
+	 id: 5527
+	 type: part
+	 display_name: pvdl
+
+il2vr
+	 id: 5528
+	 type: part
+	 display_name: il2vr
+
+flpr
+	 id: 5529
+	 type: part
+	 display_name: flpr
+
+bagr
+	 id: 5530
+	 type: part
+	 display_name: bagr
+
+il2r
+	 id: 5531
+	 type: part
+	 display_name: il2r
+
+awcr
+	 id: 5532
+	 type: part
+	 display_name: awcr
+
+awbr
+	 id: 5533
+	 type: part
+	 display_name: awbr
+
+awar
+	 id: 5534
+	 type: part
+	 display_name: awar
+
+askr
+	 id: 5535
+	 type: part
+	 display_name: askr
+
+asir
+	 id: 5536
+	 type: part
+	 display_name: asir
+
+aser
+	 id: 5537
+	 type: part
+	 display_name: aser
+
+ashr
+	 id: 5538
+	 type: part
+	 display_name: ashr
+
+adlr
+	 id: 5539
+	 type: part
+	 display_name: adlr
+
+adfr
+	 id: 5540
+	 type: part
+	 display_name: adfr
+
+ader
+	 id: 5541
+	 type: part
+	 display_name: ader
+
+pqr
+	 id: 5542
+	 type: part
+	 display_name: pqr
+
+phcl
+	 id: 5543
+	 type: part
+	 display_name: phcl
+
+phbl
+	 id: 5544
+	 type: part
+	 display_name: phbl
+
+phal
+	 id: 5545
+	 type: part
+	 display_name: phal
+
+plml
+	 id: 5546
+	 type: part
+	 display_name: plml
+
+pdel
+	 id: 5547
+	 type: part
+	 display_name: pdel
+
+alml
+	 id: 5548
+	 type: part
+	 display_name: alml
+
+il2vl
+	 id: 5549
+	 type: part
+	 display_name: il2vl
+
+cepdr
+	 id: 5550
+	 type: part
+	 display_name: cepdr
+
+asgr
+	 id: 5551
+	 type: part
+	 display_name: asgr
+
+ollr
+	 id: 5552
+	 type: part
+	 display_name: ollr
+
+il2dr
+	 id: 5553
+	 type: part
+	 display_name: il2dr
+
+afdr
+	 id: 5554
+	 type: part
+	 display_name: afdr
+
+cepvr
+	 id: 5555
+	 type: part
+	 display_name: cepvr
+
+asjr
+	 id: 5556
+	 type: part
+	 display_name: asjr
+
+aqr
+	 id: 5557
+	 type: part
+	 display_name: aqr
+
+il2dl
+	 id: 5558
+	 type: part
+	 display_name: il2dl
+
+bagl
+	 id: 5559
+	 type: part
+	 display_name: bagl
+
+cepvl
+	 id: 5560
+	 type: part
+	 display_name: cepvl
+
+adel
+	 id: 5561
+	 type: part
+	 display_name: adel
+
+flpl
+	 id: 5562
+	 type: part
+	 display_name: flpl
+
+adll
+	 id: 5563
+	 type: part
+	 display_name: adll
+
+ashl
+	 id: 5564
+	 type: part
+	 display_name: ashl
+
+awbl
+	 id: 5565
+	 type: part
+	 display_name: awbl
+
+afdl
+	 id: 5566
+	 type: part
+	 display_name: afdl
+
+adfl
+	 id: 5567
+	 type: part
+	 display_name: adfl
+
+asel
+	 id: 5568
+	 type: part
+	 display_name: asel
+
+awcl
+	 id: 5569
+	 type: part
+	 display_name: awcl
+
+asjl
+	 id: 5570
+	 type: part
+	 display_name: asjl
+
+cepdl
+	 id: 5571
+	 type: part
+	 display_name: cepdl
+
+asil
+	 id: 5572
+	 type: part
+	 display_name: asil
+
+askl
+	 id: 5573
+	 type: part
+	 display_name: askl
+
+asgl
+	 id: 5574
+	 type: part
+	 display_name: asgl
+
+awal
+	 id: 5575
+	 type: part
+	 display_name: awal
+
+olll
+	 id: 5576
+	 type: part
+	 display_name: olll
+
+il2l
+	 id: 5577
+	 type: part
+	 display_name: il2l
+
+virr
+	 id: 5578
+	 type: part
+	 display_name: virr
+
+virl
+	 id: 5579
+	 type: part
+	 display_name: virl
+
+vpi3_v
+	 id: 5580
+	 type: part
+	 display_name: vpi3_v
+
+vpi3_d
+	 id: 5581
+	 type: part
+	 display_name: vpi3_d
+
+vpi2_dl
+	 id: 5582
+	 type: part
+	 display_name: vpi2_dl
+
+vpi2_v
+	 id: 5583
+	 type: part
+	 display_name: vpi2_v
+
+vpi2_dr
+	 id: 5584
+	 type: part
+	 display_name: vpi2_dr
+
+vpi1
+	 id: 5585
+	 type: part
+	 display_name: vpi1
+
+mu_anal
+	 id: 5586
+	 type: part
+	 display_name: mu_anal
+
+y
+	 id: 5587
+	 type: part
+	 display_name: y
+
+b
+	 id: 5588
+	 type: part
+	 display_name: b
+
+u
+	 id: 5589
+	 type: part
+	 display_name: u
+
+f
+	 id: 5590
+	 type: part
+	 display_name: f
+
+k
+	 id: 5591
+	 type: part
+	 display_name: k
+
+kprime
+	 id: 5592
+	 type: part
+	 display_name: kprime
+
+dvc
+	 id: 5593
+	 type: part
+	 display_name: dvc
+
+dva
+	 id: 5594
+	 type: part
+	 display_name: dva
+
+siavr
+	 id: 5595
+	 type: part
+	 display_name: siavr
+
+sdqr
+	 id: 5596
+	 type: part
+	 display_name: sdqr
+
+sdql
+	 id: 5597
+	 type: part
+	 display_name: sdql
+
+bdur
+	 id: 5598
+	 type: part
+	 display_name: bdur
+
+pvnr
+	 id: 5599
+	 type: part
+	 display_name: pvnr
+
+pvwr
+	 id: 5600
+	 type: part
+	 display_name: pvwr
+
+pvcr
+	 id: 5601
+	 type: part
+	 display_name: pvcr
+
+luar
+	 id: 5602
+	 type: part
+	 display_name: luar
+
+pvpl
+	 id: 5603
+	 type: part
+	 display_name: pvpl
+
+ripr
+	 id: 5604
+	 type: part
+	 display_name: ripr
+
+urbr
+	 id: 5605
+	 type: part
+	 display_name: urbr
+
+aibr
+	 id: 5606
+	 type: part
+	 display_name: aibr
+
+adar
+	 id: 5607
+	 type: part
+	 display_name: adar
+
+mi
+	 id: 5608
+	 type: part
+	 display_name: mi
+
+i6
+	 id: 5609
+	 type: part
+	 display_name: i6
+
+i5
+	 id: 5610
+	 type: part
+	 display_name: i5
+
+i4
+	 id: 5611
+	 type: part
+	 display_name: i4
+
+i3
+	 id: 5612
+	 type: part
+	 display_name: i3
+
+i2r
+	 id: 5613
+	 type: part
+	 display_name: i2r
+
+i1r
+	 id: 5614
+	 type: part
+	 display_name: i1r
+
+pvnl
+	 id: 5615
+	 type: part
+	 display_name: pvnl
+
+pvcl
+	 id: 5616
+	 type: part
+	 display_name: pvcl
+
+pvql
+	 id: 5617
+	 type: part
+	 display_name: pvql
+
+pvt
+	 id: 5618
+	 type: part
+	 display_name: pvt
+
+pvpr
+	 id: 5619
+	 type: part
+	 display_name: pvpr
+
+pvwl
+	 id: 5620
+	 type: part
+	 display_name: pvwl
+
+lual
+	 id: 5621
+	 type: part
+	 display_name: lual
+
+pvqr
+	 id: 5622
+	 type: part
+	 display_name: pvqr
+
+bdul
+	 id: 5623
+	 type: part
+	 display_name: bdul
+
+i1l
+	 id: 5624
+	 type: part
+	 display_name: i1l
+
+i2l
+	 id: 5625
+	 type: part
+	 display_name: i2l
+
+rivr
+	 id: 5626
+	 type: part
+	 display_name: rivr
+
+avjr
+	 id: 5627
+	 type: part
+	 display_name: avjr
+
+ricr
+	 id: 5628
+	 type: part
+	 display_name: ricr
+
+sibvr
+	 id: 5629
+	 type: part
+	 display_name: sibvr
+
+siadr
+	 id: 5630
+	 type: part
+	 display_name: siadr
+
+aiar
+	 id: 5631
+	 type: part
+	 display_name: aiar
+
+saadl
+	 id: 5632
+	 type: part
+	 display_name: saadl
+
+ribr
+	 id: 5633
+	 type: part
+	 display_name: ribr
+
+avkr
+	 id: 5634
+	 type: part
+	 display_name: avkr
+
+avkl
+	 id: 5635
+	 type: part
+	 display_name: avkl
+
+avfl
+	 id: 5636
+	 type: part
+	 display_name: avfl
+
+avfr
+	 id: 5637
+	 type: part
+	 display_name: avfr
+
+avar
+	 id: 5638
+	 type: part
+	 display_name: avar
+
+avbr
+	 id: 5639
+	 type: part
+	 display_name: avbr
+
+avdl
+	 id: 5640
+	 type: part
+	 display_name: avdl
+
+avbl
+	 id: 5641
+	 type: part
+	 display_name: avbl
+
+aval
+	 id: 5642
+	 type: part
+	 display_name: aval
+
+avdr
+	 id: 5643
+	 type: part
+	 display_name: avdr
+
+saadr
+	 id: 5644
+	 type: part
+	 display_name: saadr
+
+rir
+	 id: 5645
+	 type: part
+	 display_name: rir
+
+sibdr
+	 id: 5646
+	 type: part
+	 display_name: sibdr
+
+aver
+	 id: 5647
+	 type: part
+	 display_name: aver
+
+riar
+	 id: 5648
+	 type: part
+	 display_name: riar
+
+saavr
+	 id: 5649
+	 type: part
+	 display_name: saavr
+
+ainr
+	 id: 5650
+	 type: part
+	 display_name: ainr
+
+avhr
+	 id: 5651
+	 type: part
+	 display_name: avhr
+
+urxr
+	 id: 5652
+	 type: part
+	 display_name: urxr
+
+ris
+	 id: 5653
+	 type: part
+	 display_name: ris
+
+ripl
+	 id: 5654
+	 type: part
+	 display_name: ripl
+
+urbl
+	 id: 5655
+	 type: part
+	 display_name: urbl
+
+adal
+	 id: 5656
+	 type: part
+	 display_name: adal
+
+rid
+	 id: 5657
+	 type: part
+	 display_name: rid
+
+urxl
+	 id: 5658
+	 type: part
+	 display_name: urxl
+
+rivl
+	 id: 5659
+	 type: part
+	 display_name: rivl
+
+avhl
+	 id: 5660
+	 type: part
+	 display_name: avhl
+
+avjl
+	 id: 5661
+	 type: part
+	 display_name: avjl
+
+ainl
+	 id: 5662
+	 type: part
+	 display_name: ainl
+
+saavl
+	 id: 5663
+	 type: part
+	 display_name: saavl
+
+rial
+	 id: 5664
+	 type: part
+	 display_name: rial
+
+avel
+	 id: 5665
+	 type: part
+	 display_name: avel
+
+sibdl
+	 id: 5666
+	 type: part
+	 display_name: sibdl
+
+ribl
+	 id: 5667
+	 type: part
+	 display_name: ribl
+
+aizl
+	 id: 5668
+	 type: part
+	 display_name: aizl
+
+ricl
+	 id: 5669
+	 type: part
+	 display_name: ricl
+
+aiyr
+	 id: 5670
+	 type: part
+	 display_name: aiyr
+
+aimr
+	 id: 5671
+	 type: part
+	 display_name: aimr
+
+aibl
+	 id: 5672
+	 type: part
+	 display_name: aibl
+
+rigl
+	 id: 5673
+	 type: part
+	 display_name: rigl
+
+sabd
+	 id: 5674
+	 type: part
+	 display_name: sabd
+
+avg
+	 id: 5675
+	 type: part
+	 display_name: avg
+
+rifl
+	 id: 5676
+	 type: part
+	 display_name: rifl
+
+rigr
+	 id: 5677
+	 type: part
+	 display_name: rigr
+
+rifr
+	 id: 5678
+	 type: part
+	 display_name: rifr
+
+sabvr
+	 id: 5679
+	 type: part
+	 display_name: sabvr
+
+sabvl
+	 id: 5680
+	 type: part
+	 display_name: sabvl
+
+aiml
+	 id: 5681
+	 type: part
+	 display_name: aiml
+
+aiyl
+	 id: 5682
+	 type: part
+	 display_name: aiyl
+
+siadl
+	 id: 5683
+	 type: part
+	 display_name: siadl
+
+aial
+	 id: 5684
+	 type: part
+	 display_name: aial
+
+siavl
+	 id: 5685
+	 type: part
+	 display_name: siavl
+
+sibvl
+	 id: 5686
+	 type: part
+	 display_name: sibvl
+
+rih
+	 id: 5687
+	 type: part
+	 display_name: rih
+
+# Layers
+
+Cuticle
+	 id: 10
+	 type: group
+	 display_name: Cuticle
+	 layer: yes
+	 hidden: yes
+
+Organs
+	 id: 11
+	 type: group
+	 display_name: Organs
+	 layer: yes
+	 hidden: yes
+
+Muscles
+	 id: 12
+	 type: group
+	 display_name: Muscles
+	 layer: yes
+	 hidden: yes
+
+Neurons
+	 id: 13
+	 type: group
+	 display_name: Neurons
+	 layer: yes
+	 hidden: yes
+
+# Sub-Layers
+
+ExcSysLayer
+	 id: 14
+	 type: sublayer
+	 display_name: ExcSysLayer
+	 sublayer_index: 0
+	 hidden: yes
+
+PharynxLayer
+	 id: 15
+	 type: sublayer
+	 display_name: PharynxLayer
+	 sublayer_index: 1
+	 hidden: yes
+
+RepSysLayer
+	 id: 16
+	 type: sublayer
+	 display_name: RepSysLayer
+	 sublayer_index: 2
+	 hidden: yes
+
+IntestineLayer
+	 id: 17
+	 type: sublayer
+	 display_name: IntestineLayer
+	 sublayer_index: 3
+	 hidden: yes
+
+GLRLayer
+	 id: 18
+	 type: sublayer
+	 display_name: GLRLayer
+	 sublayer_index: 4
+	 hidden: yes
+
+RectLayer
+	 id: 19
+	 type: sublayer
+	 display_name: RectLayer
+	 sublayer_index: 5
+	 hidden: yes
+
+MuscleLayer
+	 id: 20
+	 type: sublayer
+	 display_name: MuscleLayer
+	 sublayer_index: 0
+	 hidden: yes
+
+SensNeurLayer
+	 id: 21
+	 type: sublayer
+	 display_name: SensNeurLayer
+	 sublayer_index: 0
+	 hidden: yes
+
+MotNeurLayer
+	 id: 22
+	 type: sublayer
+	 display_name: MotNeurLayer
+	 sublayer_index: 1
+	 hidden: yes
+
+IntNeurLayer
+	 id: 23
+	 type: sublayer
+	 display_name: IntNeurLayer
+	 sublayer_index: 2
+	 hidden: yes
+
+PolyNeurLayer
+	 id: 24
+	 type: sublayer
+	 display_name: PolyNeurLayer
+	 sublayer_index: 3
+	 hidden: yes
+
+SocketLayer
+	 id: 25
+	 type: sublayer
+	 display_name: SocketLayer
+	 sublayer_index: 4
+	 hidden: yes
+
+SheathLayer
+	 id: 26
+	 type: sublayer
+	 display_name: SheathLayer
+	 sublayer_index: 5
+	 hidden: yes
+
+NUFsLayer
+	 id: 27
+	 type: sublayer
+	 display_name: NUFsLayer
+	 sublayer_index: 6
+	 hidden: yes
+
+HypCutLayer
+	 id: 28
+	 type: sublayer
+	 display_name: HypCutLayer
+	 sublayer_index: 0
+	 hidden: yes
+
+# Group
+
+worm_body
+	id: 1
+	type: group
+	hidden: yes

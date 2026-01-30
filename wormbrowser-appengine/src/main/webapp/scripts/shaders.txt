@@ -1,0 +1,75 @@
+/** shader_fragment **/
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform sampler2D u_texture;
+uniform float u_opacity;
+
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+
+const vec3 kLightVector = vec3(0.3, 0.3, -0.9);
+const vec3 kHalfVector = vec3(0.154, 0.154, -0.974);
+
+void main(void) {
+    vec3 normal = normalize(v_normal);
+    // half-Lambert lighting.
+    float light = 0.5 + 0.5*dot(normal, kLightVector);
+    float diffuse = light*u_opacity;
+    // Specular with fake fresnel effect.
+    float specular = max(0.0, dot(normal, kHalfVector));
+    specular *= 0.7 + 0.3*normal.z;
+    specular *= specular;
+    specular *= u_opacity;
+    vec3 fetch = texture2D(u_texture, v_texcoord).rgb;
+    gl_FragData[0] = vec4(diffuse*fetch + vec3(specular), u_opacity);
+}
+
+/** shader_fragment_id **/
+
+precision highp float;
+varying vec4 v_color;
+void main() {
+  gl_FragColor = v_color;
+}
+
+/** shader_vertex **/
+
+uniform mat4 u_mvp;
+
+attribute vec3 a_position;
+attribute vec2 a_texcoord;
+attribute vec3 a_normal;
+
+varying vec2 v_texcoord;
+varying vec3 v_normal;
+
+void main(void) {
+  v_normal    = vec3(u_mvp * vec4(a_normal, 0));
+  v_texcoord  = a_texcoord;
+  gl_Position = u_mvp * vec4(a_position, 1.0);
+}
+
+/** shader_vertex_id **/
+
+uniform mat4 u_mvp;
+uniform float u_colorScale;
+
+attribute vec3 a_position;
+attribute vec3 a_normal;
+attribute float a_colorIndex;
+
+varying vec4 v_color;
+varying vec3 v_normal;
+
+void main() {
+  float scaledColor = a_colorIndex * u_colorScale;
+  float redColor = floor(scaledColor / (256.0 * 256.0));
+  float greenColor = floor((scaledColor - redColor * 256.0 * 256.0) / 256.0);
+  float blueColor = (scaledColor - greenColor * 256.0 - redColor * 256.0 * 256.0);
+  v_color = vec4(redColor / 255.0, greenColor / 255.0, blueColor / 255.0, 1);
+  v_normal = vec3(u_mvp * vec4(a_normal, 0));
+  gl_Position = u_mvp * vec4(a_position, 1.0);
+}
