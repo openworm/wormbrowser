@@ -2,3 +2,4 @@
 .DS_Store
 
 org.openworm.wormbrowser/.settings/com.google.appengine.eclipse.core.prefs
+/wormbrowser-appengine/target
