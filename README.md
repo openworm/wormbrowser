@@ -46,7 +46,7 @@ mvn jetty:run
 ### Local Testing Checklist
 
 1. Open http://localhost:8080/ - WebGL 3D visualization should load
-2. Open http://localhost:8080/org_openworm_wormbrowser - Should display "I write ze codez, I am cool!"
+2. Open http://localhost:8080/org_openworm_wormbrowser - Should display "I write ze codez, so I am cool!"
 3. Verify no console errors in browser DevTools
 
 ## Deployment to Google App Engine

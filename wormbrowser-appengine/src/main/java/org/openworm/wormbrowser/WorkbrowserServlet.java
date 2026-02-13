@@ -47,6 +47,6 @@ public class WorkbrowserServlet extends HttpServlet {
             throws IOException {
         resp.setContentType("text/plain");
         resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().println("I write ze codez, I am cool!");
+        resp.getWriter().println("I write ze codez, so I am cool!");
     }
 }
