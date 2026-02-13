@@ -1,0 +1,35 @@
+# This workflow will build a Java project with Maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches:  [ master, development, experimental, java* ]
+  pull_request:
+    branches:  [ master, development, experimental, java* ]
+
+jobs:
+  build_and_test:
+
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [ '17', '19', '21' ]
+        runs-on: [ubuntu-latest, macos-latest ]
+
+
+
+    name: Test on Java ${{ matrix.Java }} on ${{ matrix.runs-on }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK ${{ matrix.Java }}
+      uses: actions/setup-java@v4
+      with:
+        java-version: ${{ matrix.Java }}
+        distribution: 'temurin'
+
+    - name: Test with Maven
+      run: |
+        mvn install
+      
