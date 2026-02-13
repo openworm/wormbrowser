@@ -31,5 +31,8 @@ jobs:
 
     - name: Test with Maven
       run: |
+        cd wormbrowser-appengine
         mvn install
+        cd ..
+        find .
       
